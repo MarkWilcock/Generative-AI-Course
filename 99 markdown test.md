@@ -12,9 +12,50 @@ blah
 ##### header 5
 blah1
 
-Image 2 [!alt text 2](./images/ChatGPT.jpg)
+links  
+[Zomalex Training](http://zomalex.co.uk)
+
+lines
+two spaces at end of line for next line  
+roses are red, violets are blue,  
+what comes next
+
+blockquote  
+> one line  
+> and the next  
+> and so on  
+
+Lists
+
+* unnumbered a
+* unnumbered b
+* unnumbered c
+
+1. numbered
+1. numbered
+1. numbered
+
+letter lists do not work   
+A.  numbered
+A. numbered
+A. numbered
+
+but this is a workaround
+
+<ol type="a">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+ we **can** *experiment* with _fonts_
 
 
-Image 1 [!alt text 1][def]
 
-[def]: images/ChatGPT.jpg
+! outside [] for inline graphics  
+Image 2 ![ChatGPT UX](./images/ChatGPT.jpg)
+
+
+Image 1 ![ChatGPT UX][def1]
+
+[def1]: images/ChatGPT.jpg
