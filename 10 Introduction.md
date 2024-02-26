@@ -19,3 +19,28 @@ Here are a couple of useful terms
 * *prompt*  - input to the LLM, usuual a sentecnce or paragraph
 * *completion* - the output (or response) from the LLM  
 
+LLMs work with numbers. Tokenizer converts prompt to a sequence (array) at numbers. Tokenizer splits prompt into an array tokens (roughly word/word fragment).
+Show tokener example
+LLMs are trained on a **massive** amount of text.
+Given a series of words (tokens), LLM predicts next word (token).
+Uses probability to do this.
+Does not always choose the most probable next word (to simulate creativity). This is controlled by temperature setting, warmer=more creative. 
+Once next word is added, to prompt, LLMs repeats
+"A tasty breakfast"
+could|vary|depending
+may|include|oatmeal...
+include|scrambled|eggs|...
+
+### **Some practical details of how test to use LLMs**
+LLMs generate text from scratch, starting with a prompt. 
+- **Instruction**: summarise, review, plan...
+- **Ask a question**: Who was Neil Armstrong?
+- **Complete a text**: "Einstein was important to physics because..."
+- and lots of technical/software tasks: e.g. write Excel formulas, build PBI dashboard, write Python code.
+
+**Knowledge check**
+Which of the following is true?
+1. They give exactly same response every time
+2. They do think perfectly, you can trust results 100%
+3. they are good at initial first drafts - but treat with care and check
+ 
