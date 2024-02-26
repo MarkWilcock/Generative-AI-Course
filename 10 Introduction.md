@@ -19,28 +19,29 @@ Here are a couple of useful terms
 * *prompt*  - input to the LLM, usuual a sentecnce or paragraph
 * *completion* - the output (or response) from the LLM  
 
-LLMs work with numbers. Tokenizer converts prompt to a sequence (array) at numbers. Tokenizer splits prompt into an array tokens (roughly word/word fragment).
-Show tokener example
+LLMs work with numbers. Tokenizer converts prompt to a sequence (array) at numbers. Tokenizer splits prompt into an array tokens (roughly word/word fragment).  
+
+_to do: Show tokener example_
+
 LLMs are trained on a **massive** amount of text.
-Given a series of words (tokens), LLM predicts next word (token).
-Uses probability to do this.
-Does not always choose the most probable next word (to simulate creativity). This is controlled by temperature setting, warmer=more creative. 
-Once next word is added, to prompt, LLMs repeats
-"A tasty breakfast"
-could|vary|depending
-may|include|oatmeal...
-include|scrambled|eggs|...
+Given a series of words (tokens), an LLM predicts next word (token) based on probability.  It does not always choose the _most_ probable next word to simulate creativity. This is controlled by temperature setting, warmer=more creative. 
 
-### **Some practical details of how test to use LLMs**
-LLMs generate text from scratch, starting with a prompt. 
-- **Instruction**: summarise, review, plan...
-- **Ask a question**: Who was Neil Armstrong?
-- **Complete a text**: "Einstein was important to physics because..."
-- and lots of technical/software tasks: e.g. write Excel formulas, build PBI dashboard, write Python code.
+Once next word is added, to prompt, LLMs repeats the process
+For example, here are three different completions of the next three words of a prompt "A tasty breakfast"
+* could vary depending
+* may include oatmeal
+* includes scrambled eggs
 
-**Knowledge check**
-Which of the following is true?
-1. They give exactly same response every time
-2. They do think perfectly, you can trust results 100%
-3. they are good at initial first drafts - but treat with care and check
+### Some practical details of how test to use LLMs
+LLMs generate text from scratch, starting with a prompt. The prompt could
+- _provide an instruction_: summarise, review, plan...
+- _ask a question_: Who was Neil Armstrong?
+- _complete a text_: Einstein was important to physics because...
+- and perform lots of technical/software tasks: e.g. explain an Excel formula, write Python code.
+
+### Knowledge Check
+Which of the following is true of LLMs?
+1. They give exactly the same response every time?
+2. They do things perfectly, you can trust results 100%!
+3. They are good at initial first drafts - but treat with care and check.
  
