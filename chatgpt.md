@@ -47,16 +47,9 @@ Understand what went wrong and suggest how to fix it.
 * This Excel formula produces incorrect results in some cells but is correct in others.  Can you explain why?  
 =XLOOKUP(G18,$D$18:$D$21,$C18:$C$21)  
 
-
 Explain:  
 * Why is the sky blue?  
 * And the grass green?
-
-**Task 4**
-
-
-**Task 5**
-
 
 
 ## How to get better responses from ChatGPT
