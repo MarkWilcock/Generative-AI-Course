@@ -4,6 +4,7 @@ Generative AI seems to have arrived suddenly but in fact it has a long gestation
 
 * 1956, Artificial Intelligence (AI), ambition to create intelligent machines at the [Dartmouth Workshop](https://en.wikipedia.org/wiki/Dartmouth_workshop)
 * 1997, Machine Learning (ML), _statistical_ learning from **data and predictions.**
+* early 2000s, Google Translate and Siri
 * 2017, Deep Learning, a ML technique inspired by the wiring in our brains.  "Neurons" are connected into layers and the weights of the connections between neurons can be adjusted so that the neural net (NN) can "learn".
 * 2021, Generative AI, create new content, which could be text, audio or video, given a prompt.  An extension of NNs using the transformer architecture.
 
