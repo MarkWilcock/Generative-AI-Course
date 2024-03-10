@@ -10,6 +10,7 @@ ChatGPT is a useful, practical productivity tool. It can help us do some tasks b
 ChatGPT has a free and paid versions.  The free version is sufficient for most tasks. To sign up, open a browser and go to OpenAI's official ChatGPT page at  https://chat.openai.com. You can sign up in the usual way, using an email address or via a Google/Microsoft/Apple account.
 
 In the exercises, you will use ChatGPT to provide helpful answer to relevant tasks.
+
 ChatGPT has weaknesses as well as its considerable strengths and here are the three points to bear in mind:
 1. ChatGPT can make mistakes. Always check any important results independently.
 2. ChatGPT remembers and learns from every prompt. Never put any confidential information into ChatGPT. Keep your data private.
@@ -26,6 +27,7 @@ Ask ChatGPT a question (provide a prompt) and read its response.  Consider:
 Continue the conversation and provide a follow up prompt, with more specific details and/or  a clarification / extension of your original question.  Consider:
 * does this improve ChatGPT's response?
 * how much does this feel like a natural conversation?
+You  can continue to add further follow up prompts based on the latest response in an iterative manner
 
 **Task 3**  Try various styles of conversation and tasks.  For example, Ask ChatGPT to brainstorm, plan, explain, summarise and critique, and suggest solutions to problems. Here are some suggestions to get you started but please use your own ideas.
 
@@ -63,6 +65,7 @@ We talk with ChatGPT by providing a question or instruction (called a prompt). C
 In the exercise we ask ChatGPT to plan a family summer holiday.  We start with a vague prompt and ChatGPT replies in a good but not particularly helpful manner. We then uses the RICE framework to improve his prompts and ChatGPT responds with more useful suggestions.
 
 
+
 ### Exercise 2: Improve ChatGPT responses
 
 In this exercise, we will work in groups of about 4 - 5 people in breakout rooms.   Students may want to give themselves 10 minutes or so experimenting with ChatGPT individually before coming together as a group.  In teh instructions there are some example prompts but please use your own ideas. 
@@ -70,7 +73,7 @@ In this exercise, we will work in groups of about 4 - 5 people in breakout rooms
 **Task 1** Start with a vague but typical prompt. Here are some prompt examples but please use your own ideas.  
 Suggest 5 ideas for good holiday
 
-**Task  2** provide a more detailed, specific prompt using the RICE framework.
+**Task  2** Provide a more detailed, specific prompt using the RICE framework.
 
 Role: Act as an expert in holiday planning.  Your clients live in the UK.  Keep your responses brief. Provide a link for any suggestions that you make.
 
@@ -84,6 +87,10 @@ Here is an example of the type of response I need.
 *Milan is a lovely city for families on holiday.  It has many attractions e.g. the Duomo, Michaelangelo's Last Supper.  
 There are beautiful tourist locations near to the city. for example, Bergamo is a historic hilltop town only a short train journey from Milan.  The famous San Siro football stadium, used by both AC Milan and Inter Milan, is situated on the outskirts of the city.
 Milan can be reached by train from London with an overnight stop in Paris.*  
+
+**Task  3** Ask GPT to request clarifications before answering
+
+Firstly, prompt ChatGPT with "Please ask me any questions to clarify the meaning or scope of any prompts that I have provided before you give your full response.  If you don't need any clarification, respond with OK."
 
 ## Top tips for using ChatGPT
 
