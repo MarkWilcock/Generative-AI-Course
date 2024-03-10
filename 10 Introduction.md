@@ -10,7 +10,7 @@ Generative AI seems to have arrived suddenly but in fact it has a long gestation
 
 ## Large Language Models (LLMs)
 
-A large language model is a type of AI program designed to understand, generate, and interact with human language. It's trained on vast amounts of text data.  It repatedly predicts the next word in a sentence to build a response to a prompt.  It can answer questions, write essays, and create code. 
+A large language model is a type of AI program designed to understand, generate, and interact with human language. It's trained on vast amounts of text data.  It repeatedly predicts the next word in a sentence to build a response to a prompt.  It can answer questions, write essays, and create code. 
 Here are a couple of useful terms
 * *prompt*  - input to the LLM, usuual a sentecnce or paragraph
 * *completion* - the output (or response) from the LLM  
