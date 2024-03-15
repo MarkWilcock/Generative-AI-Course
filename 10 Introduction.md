@@ -40,13 +40,9 @@ Here are a couple of useful terms
 * *prompt*  - input to the LLM, usuual a sentecnce or paragraph
 * *completion* - the output (or response) from the LLM  
 
-LLMs work with numbers. Our prompt needs to be converted to number to input into teh model and the model out needs to be converted from numbers to text.  A tokenizer converts prompt to a sequence (array) at numbers. The tokenizer splits prompts into an array tokens (roughly word/word fragment).  
-
-_to do: Show tokener example_
 
 LLMs work by language modelling.  They are trained on a **massive** amount of text.
 Given a series of words (tokens), an LLM predicts next word (token) based on probability.  It does this by statistical analysis of a lot of text.  It does not always choose the _most_ probable next word to simulate creativity. This is controlled by temperature setting, warmer=more creative. 
-
 
 For example, here are three different completions of the next three words of a prompt "A tasty breakfast"
 * could vary depending
@@ -61,7 +57,7 @@ Possible continuations, with made-up probabilities,  are
 *  --- the  park (3%)
 *  --- the fair (2%)
 
-### Some practical details of how test to use LLMs
+### Some practical ideas on on how  to use LLMs
 LLMs generate text from scratch, starting with a prompt. The prompt could
 - _provide an instruction_: summarise, review, plan...
 - _ask a question_: Who was Neil Armstrong?
@@ -76,32 +72,6 @@ Which of the following is true of LLMs?
 2. They do things perfectly, you can trust results 100%!
 3. They are good at initial first drafts - but treat with care and check.
  
-
- 
-###  How to build a LLM
-Download a lot of text (a corpus), preferably the entire internet.  
-
-Go through the next steps repeatedly for over the whole corpus in a process called self-supervised learning.
-* Remove the last part of a sentence
-* Let the LLM guess / predict the continuations - the next word(s).
-* Adjust the model to match the actual continuations (the ground truth)  After a while the model gets really good
-at this "guess the next word" game. 
-This steps costs $100m, takes several months and generates several hundred tons of CO2.
-
-### Next step: Re-inforcement learning with human feedback (fine-tuning)
-
-At this point the model is pre-trained and will just continue / complete text.  Now we fine-tune the model to make it useful.  Humans provide questions and finetune the model so that it responds with something close to a model answer.  Another technique to fine tune is for the LLM to generate two different answers. People then indicate which response they prefer and this is fed back into the fine training.  
-
-As the model grows in size, it shows  surprising “emergent behaviours”: 
-* be able to crack jokes, 
-* provide step-by-step instructions, 
-* perform chain of thought reasoning
-* act in a role
-* write poetry
-* solve algebraic equations
-* provide strategic advice to directors of large organisations!
-
-
 ### Multi model models
 Models can take in data and respond in several formats (text, audi, images, video).  Current examples:
 * text to text
@@ -144,44 +114,3 @@ LLMs are not a perfect technology.  There have a few drawbacks:
 * LLMs will make things up.  A famous example is Google’s Bard mistakenly stating that the James Webb telescope took the first picture of an exo-planet, which when refuted led a a $9bn drop in Google’s share price.
 * Generative AI may be used by bad actors to generate untrue messages, articles, to do bad things e.g. interfere with elections
 * Jobs will be lost (and some will be won) but there will be economic disruption
-
-
-
-## How do LLMs work?
-An LLM is based on an AI approach known as deep learning.  This uses a structure named a neutral net which looks like this.
-
-![Neural Net Schematic](https://www.frontiersin.org/files/Articles/1290880/fphy-11-1290880-HTML/image_m/fphy-11-1290880-g001.jpg)
-<br/>Source: https://www.frontiersin.org/files/Articles/1290880/fphy-11-1290880-HTML/image_m/fphy-11-1290880-g001.jpg
-
-This contains nodes (or neurons, or simply numbers) and connections (lines, or sometimes called edges) between the nodes.  The nodes are arranged in several layers:
-* the input layer – the values of these nodeas are set to the context of the words)
-* Several hidden layers – these help the neural net to generalise
-* the output layer – the output of the nodes in this layer makes the prediction of the next word.
-A node is connected to *all* the  nodes in the previous layer by the connections. Each of these connections has a weight (a number) and it is these weights that are adjusted during the training so that the predictions and closer to the actual output values The output of the node is based on the total weights.
-
-The node has an activation function that also determines the strength (weight) of its output based on the total of the weights of the input. (Typical ones are named RELU or Sigmoid).  This activation function helps the LLM to generalise and learn.
-
-The neural net in the diagram is not very big – it has about 100 parameters. Most neural nets are much bigger, Chat GPT has about 1 billion parameters, about the same as a rat brain, but currently less than a human brain (100 billion parameters). Size matters.  Bigger is better.
-
-GPT stands for 
-* Generative 
-* Pre-Trained 
-* Transformer.
-
-A transformer architecture looks like below (read top to bottom_)
-
-*prompt words:* she | walked | through
-
-< Token Embedding: convert words and their position in the sentence to numbers >
-
-[ Self Attention Neural Net - determines the most important words in the prompt history to pay attention to ]
-
-[ Feed Forward Neural Net - guesses the next word]
-
-< Token Embedding: convert numbers into words >
-
-*completion words*: through | the  | woods
-
-
-
-
