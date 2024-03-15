@@ -2,7 +2,7 @@
 
 Here are some resources for learning more about Generative AI.
 
-##  Learning More about Generative AI
+##  Overviews of Generative AI
 
 Microsoft have a great course [Introduction to Gen AI](https://github.com/microsoft/generative-ai-for-beginners).  This comes highly reccommended.
 
@@ -12,7 +12,7 @@ At a recent Turing Institute lecture, Mirella Lapata gave a wonderful overview. 
 
 ## More technical details about how LLMs work 
 
-Andrej Kaparthy explains the maths of [back propogation in neural nets](https://youtu.be/VMj-3S1tku0?si=_guPyeexsGlA7nvn).
+Andrej Kaparthy explains the maths of back propogation in neural nets. [The spelled-out intro to neural networks and backpropagation: building micrograd](https://youtu.be/VMj-3S1tku0?si=_guPyeexsGlA7nvn).
 
 ## Example datasets
 
