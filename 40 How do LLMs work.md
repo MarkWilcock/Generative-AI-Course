@@ -70,6 +70,6 @@ A transformer architecture looks like below (read top to bottom_)
 
 LLMs work with numbers. Our prompt needs to be converted to number to input into teh model and the model out needs to be converted from numbers to text.  A tokenizer converts prompt to a sequence (array) at numbers. The tokenizer splits prompts into an array tokens (roughly word/word fragment).  
 
-_to do: Show tokener example_
+This page from OpenAI shows what a tokenizer does. https://platform.openai.com/tokenizer
 
 
