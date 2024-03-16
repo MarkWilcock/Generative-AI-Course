@@ -3,7 +3,7 @@
 Applications that have LLMs at their core, can help us explore and understand a dataset.  This dataset could have one or possibly several related tables. 
 
 We can provide information about the data in a few ways:
-*as an image of the structure of the table(s): column names and possibly data types.  This could be a snapshot of the model view of a Power BI data model, or an entity relation diagram of a database,
+* as an image of the structure of the table(s): column names and possibly data types.  This could be a snapshot of the model view of a Power BI data model, or an entity relation diagram of a database, 
 * as text: a list of tables and for each table, a list of the columns, or
 * as data: for example, tabular data in CSV or Excel files
 
@@ -20,18 +20,16 @@ If data was provided, the LLM can:
 Some specific current examples of data analysis capabilities are:
 * ChatGPT 4 can receive both text and images about data
 * the ChatGPT Data Analyst plugin will read data files
-* CoPilot  - to do -
-* Gemini  - to do -
+
 
 ## Using LLMs to assist with SQL and Python
 
-LLMs are exceptionally good at helping us understand, learn, and write code.  SQL and Python are the two main languages for data analysis.  These LLMs, (wrapped in an application or user interface) are often called code-assistants.
-Code assistants help in many ways:
-* If we are writing a line of code, the assistant can suggest possible ways we want to complete that line or block of code.
-* We can state our intent (what we want to do) in English (other human languages are available possibly to lesser extents) in a comment line and the assistant will write the code blow the comment.
-* The assistant can review, explain, and add comments to existing code.
-* The assistant can improve the code to a better standard and quality.
-* If our code has generated an error, the assistant can explain why the error occurred, explain how to fix it and possibly fix it for us.
+LLMs are exceptionally good at helping us understand, learn, and write code.  SQL and Python are the two main languages for data analysis.  These LLMs, wrapped in an application or user interface, are often called code-assistants or pair-programmers.  They help in many ways:
+* If we are writing a line of code, they can suggest possible ways we want to complete that line or block of code.
+* We can state our intent (what we want to do) in English (other human languages are available possibly to lesser extents) in a comment line and they will write the code blow the comment.
+* they can review, explain, and add comments to existing code.
+* they can improve the code to a better standard and quality.
+* If our code has generated an error, they can explain why the error occurred, explain how to fix it and possibly fix it for us.
 
 Examples of code assistants include:
 * GitHub CoPilot:  Works with popular VSCode editor, popular especially for Python,
@@ -62,17 +60,15 @@ Prompt 4: Write a SQL statement to list the patients that were admitted between 
 
 ## Exercise 1: Analyse a dataset
 
-Use the LLM to provide insights into a dataset (list below).  Some LLMs have capabilities to import a dataset e.g. ChatGPT Data Analyst. 
-
-Choose one of the following datasets:
-* [Titanic Passenger List](https://zomalextrainingstorage.blob.core.windows.net/datasets/misc/Titanic Data.xlsx)
+Use the LLM to provide insights into a dataset.  Choose one of the following datasets:
+* [Titanic Passengers](https://zomalextrainingstorage.blob.core.windows.net/datasets/misc/Titanic Data.xlsx)
 * A list of 32 American supercars from the 1970's [MT Cars](https://zomalextrainingstorage.blob.core.windows.net/datasets/misc/mtcars.xlsx)
 * [Bank Churn Data](https://zomalextrainingstorage.blob.core.windows.net/datasets/misc/Churn.csv)
 * [Airports in Europe](https://zomalextrainingstorage.blob.core.windows.net/datasets/Airports/eu-airports.csv)
 * Results from BBC's Saturday evening dancing competition in Autum 2023 [Strictly](https://zomalextrainingstorage.blob.core.windows.net/datasets/misc/Strictly Data.xlsx)
 * or any other public data that you prefer
 
-If your LLM can import the dataset, 
+Some LLMs have capabilities to import a dataset e.g. ChatGPT Data Analyst.  If your LLM can import the dataset, 
 * ask the LLM to provide insights, charts, and 
 * _possibly_ show the Python code to create those charts.
 

@@ -84,10 +84,13 @@ We will work in groups of about 4 - 5 people in breakout rooms.   Students may w
 
 In the instructions there are some example prompts, to plan a family summer holiday, but please use your own ideas. 
 
-**Task 1** Start with a vague but typical prompt. Here are some prompt examples but please use your own ideas.  
+### Task 1 
+Start with a vague but typical prompt.
+
 Suggest 5 ideas for good holiday.
 
-**Task  2** Provide a more detailed, specific prompt using the RICE framework.
+### Task  2
+Provide a more detailed, specific prompt using the RICE framework. Build this up step-by-step.
 
 Role: Act as an expert in holiday planning.  Your clients live in the UK.  Keep your responses brief. Provide a link for any suggestions that you make.
 
