@@ -8,7 +8,7 @@ Let's start with some informal definitions
 
 Examples of "traditional" AI include:
 * when the bank approves your credit card transaction or 
-* Awhen mazon / YouTube / Netflix recommend a book / video / movie
+* when Amazon / YouTube / Netflix recommend a book / video / movie.
 
 Traditional AI uses patterns in data and algorithms to estimate 
 * how much / many  of a thing (regression) or 
@@ -19,20 +19,20 @@ Traditional AI labels data but does not create new data. Generative AI differs f
 ## The shortest history of Generative AI
 
 Generative AI seems to have arrived suddenly but in fact it has a long gestation.  Here are a few moments of history.
-* 1956, Artificial Intelligence (AI), ambition to create intelligent machines at the [Dartmouth Workshop](https://en.wikipedia.org/wiki/Dartmouth_workshop)
+* 1956, Artificial Intelligence (AI) was born with the ambition to create intelligent machines at the [Dartmouth Workshop](https://en.wikipedia.org/wiki/Dartmouth_workshop)
 * 1997, Machine Learning (ML), _statistical_ learning from **data and predictions.**
-* 2000s, commercial use of early single purpose Genertive AI Google Translate (2006),  Siri (2011), autocompleter when texting on a phone
-* 2017, Deep Learning, a ML technique inspired by the wiring in our brains.  "Neurons" are connected into layers and the weights of the connections between neurons can be adjusted so that the neural net (NN) can "learn".
-* 2021, Generative AI, create new content, which could be text, audio or video, given a prompt.  An extension of NNs using the transformer architecture.
+* 2000s, commercial use of early single purpose Generative AI: Google Translate (2006), Siri (2011), autocomplete when texting on a phone
+* 2017, deep learning, a ML technique inspired by the wiring in our brains takes off. (In deep learning, "neurons" are connected into layers and the weights of the connections between neurons can be adjusted so that the neural net can "learn".)
+* 2021, an extension of the neural net approach using a new  "transformer" architecture yields results.
 
-Given that long history, what is the reason for the recent excitement? These LLMs have become more powerful.  In 2023, OpenAI released ChatGPT-4 which can do some very impressive things:
-•	Score more highly on the SAT, a US-based university entrance exam, better than 90% of people
-•	Pass some university level exams in Law, medicinine,
-•	Do useful things that a person may need: examples:
+Given that long history, what is the reason for the recent excitement? These LLMs have very recently become **much** more powerful and capable.  For example, in 2023, OpenAI released ChatGPT-4 which can do some very impressive things:
+•	score more highly on the SAT, a US-based university entrance exam, better than 90% of people
+•	pass some university level exams in Law, medicinine,
 •	Set out arguments in favour and against a certain thing e.g. vaping
 •	Play an expert role e.g. act a a Python expert and write code to…
 •	Write a job description
 Anybody can use ChatGPT and with a few hours training can use it very effectively - no coding proficiency or technical skills are required. 
+
 Because of these two factors,  ChatGPT took only 2 months to reach 100m users (compared to TikTok with 9 months and Uber wth 70 months)
 
 
