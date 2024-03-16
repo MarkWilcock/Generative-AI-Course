@@ -2,19 +2,17 @@
 
 This section describes how LLMs work under the covers.  You don't need to know this to use LLMs effectively but it offer context as to their strengths and weaknesses.
 
- 
 ##  How to build a LLM
 
  ### First step: self-supervised learning "guess the next word" 
 
 Download a lot of text (a corpus), preferably the entire internet.  
 
-Go through the next steps repeatedly for over the whole corpus in a process called self-supervised learning.
+Go through the next steps repeatedly for over the whole corpus in a process called self-supervised learning.  This will cost $100m, takes several months and generate several hundred tons of CO<sub>2</sub>.
 * Remove the last part of a sentence
 * Let the LLM guess / predict the continuations - the next word(s).
-* Adjust the model to match the actual continuations (the ground truth)  After a while the model gets really good
+* Adjust the model to match the actual continuations (the ground truth).  After a while the model gets really good
 at this "guess the next word" game. 
-This steps costs $100m, takes several months and generates several hundred tons of CO2.
 
 ### Next step: Re-inforcement learning with human feedback (fine-tuning)
 
@@ -29,8 +27,6 @@ As the model grows in size, it shows  surprising “emergent behaviours”:
 * solve algebraic equations
 * provide strategic advice to directors of large organisations!
 
-
-
 ## How LLMs work
 An LLM is based on an AI approach known as deep learning.  This uses a structure named a neutral net which looks like this.
 
@@ -41,11 +37,12 @@ This contains nodes (or neurons, or simply numbers) and connections (lines, or s
 * the input layer – the values of these nodeas are set to the context of the words)
 * Several hidden layers – these help the neural net to generalise
 * the output layer – the output of the nodes in this layer makes the prediction of the next word.
-A node is connected to *all* the  nodes in the previous layer by the connections. Each of these connections has a weight (a number) and it is these weights that are adjusted during the training so that the predictions and closer to the actual output values The output of the node is based on the total weights.
+
+A node is connected to *all* the  nodes in the previous layer by the connections. Each of these connections has a weight (a number) and it is these weights that are adjusted during the training so that the predictions and closer to the actual output values. 
 
 The node has an activation function that also determines the strength (weight) of its output based on the total of the weights of the input. (Typical ones are named RELU or Sigmoid).  This activation function helps the LLM to generalise and learn.
 
-The neural net in the diagram is not very big – it has about 100 parameters. Most neural nets are much bigger, Chat GPT has about 1 billion parameters, about the same as a rat brain, but currently less than a human brain (100 billion parameters). Size matters.  Bigger is better.
+The neural net in the diagram is tiny – it has about 30 parameters. Most neural nets are much bigger, Chat GPT has about 1 billion parameters, about the same as a rat brain, but currently less than a human brain (100 billion parameters). Size matters.  Bigger is better.
 
 GPT stands for 
 * Generative 
@@ -64,11 +61,11 @@ A transformer architecture looks like below (read top to bottom_)
 
 < Token Embedding: convert numbers into words >
 
-*completion words*: through | the  | woods
+*completion words*:  the  | woods
 
 ### Tokenisation
 
-LLMs work with numbers. Our prompt needs to be converted to number to input into teh model and the model out needs to be converted from numbers to text.  A tokenizer converts prompt to a sequence (array) at numbers. The tokenizer splits prompts into an array tokens (roughly word/word fragment).  
+LLMs work with numbers. Our prompt needs to be converted from text to numbers to be input into the model and the model output needs to be converted from numbers to text.  A tokenizer converts text to a sequence (array) at numbers. The tokenizer splits text into an array tokens (roughly word/word fragment).  
 
 This page from OpenAI shows what a tokenizer does. https://platform.openai.com/tokenizer
 

@@ -51,6 +51,7 @@ but this is a workaround
  we **can** *experiment* with _fonts_
 
 
+Subscript<sub>2</sub> and supercript<sup>2</sup>
 
 ! outside [] for inline graphics  
 Image 2 ![ChatGPT UX](./images/ChatGPT.jpg)
