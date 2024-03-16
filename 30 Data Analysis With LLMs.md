@@ -36,4 +36,54 @@ Code assistants help in many ways:
 Examples of code assistants include:
 * GitHub CoPilot:  Works with popular VSCode editor, popular especially for Python,
 * CoPilot in Microsoft Fabric Python notebooks,
-* (In beta currently), an assistant in Google Colab Python notebooks,
+* (In beta currently), an assistant in Google Colab Python notebooks
+
+## Example: Patient Stay dataset
+
+The (fictitious) dataset for this example is [here](https://zomalextrainingstorage.blob.core.windows.net/datasets/misc/PatientStay.csv)
+
+Prompt 1 : 
+
+Acts as a data analyst with knowledge of SQL. You have a dataset about patients admitted to a ward in a hospital.  It is available as a SQL table named `PatientStay`.  Each row in the table represents a patient admission.  The dataset contains the following columns.
+
+- `PatientId` (int): The unique ID of the patient.
+- `AdmittedDate` (date): The date on whcih the patient was admitted
+- `Hospital` (varchar): The name of the hospital
+- `Ward` (varchar): The name of the ward.
+- `Tariff` (float): The cost to treat the patient
+- `Ethnicity` (varchar): The ethnicity of the patient e.g., White, Asian. For some rows this value is missing (null)
+
+Prompt 2: Suggest some data analysis questions that could be answered with this dataset.
+
+Prompt 3: Write a SQL statement to list the patients that were admitted to either "Guy's Hospital" or "St Georges".
+
+Prompt 4: Write a SQL statement to list the patients that were admitted between two dates
+
+
+## Exercise 1: Analyse a dataset
+
+Use the LLM to provide insights into a dataset (list below).  Some LLMs have capabilities to import a dataset e.g. ChatGPT Data Analyst. 
+
+Choose one of the following datasets:
+* [Titanic Passenger List](https://zomalextrainingstorage.blob.core.windows.net/datasets/misc/Titanic Data.xlsx)
+* A list of 32 American supercars from the 1970's [MT Cars](https://zomalextrainingstorage.blob.core.windows.net/datasets/misc/mtcars.xlsx)
+* [Bank Churn Data](https://zomalextrainingstorage.blob.core.windows.net/datasets/misc/Churn.csv)
+* [Airports in Europe](https://zomalextrainingstorage.blob.core.windows.net/datasets/Airports/eu-airports.csv)
+* Results from BBC's Saturday evening dancing competition in Autum 2023 [Strictly](https://zomalextrainingstorage.blob.core.windows.net/datasets/misc/Strictly Data.xlsx)
+* or any other public data that you prefer
+
+If your LLM can import the dataset, 
+* ask the LLM to provide insights, charts, and 
+* _possibly_ show the Python code to create those charts.
+
+If your LLM  cannot  import the dataset, describe the data structure (a one line description of the table: list the column names and possibly add a short description for each), and ask the LLM to
+* describe the dataset
+* suggest ways that this data can be analysed
+* write SQL or Python code or Excel formulas to analyse or summarise the dataset
+
+In both cases, add follow-on questions, for example:
+* how would we add a new column that combines X and Y?
+* summarise the data: sum column X and group by column Y
+
+
+
