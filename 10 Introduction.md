@@ -26,14 +26,14 @@ Generative AI seems to have arrived suddenly but in fact it has a long gestation
 * 2021, an extension of the neural net approach using a new  "transformer" architecture yields results.
 
 Given that long history, what is the reason for the recent excitement? These LLMs have very recently become **much** more powerful and capable.  For example, in 2023, OpenAI released ChatGPT-4 which can do some very impressive things:
-•	score more highly on the SAT, a US-based university entrance exam, better than 90% of people
-•	pass some university level exams in Law, medicinine,
-•	Set out arguments in favour and against a certain thing e.g. vaping
-•	Play an expert role e.g. act a a Python expert and write code to…
-•	Write a job description
+* score more highly on the SAT, a US-based university entrance exam, better than 90% of people,
+* pass some university level exams in law, medicine,
+* set out arguments in favour and against a certain thing e.g. vaping
+* play an expert role e.g. act a a Python expert and write code.
+* write a job description.
 Anybody can use ChatGPT and with a few hours training can use it very effectively - no coding proficiency or technical skills are required. 
 
-Because of these two factors,  ChatGPT took only 2 months to reach 100m users (compared to TikTok with 9 months and Uber wth 70 months)
+Because of these factors,  ChatGPT took only 2 months to reach 100m users, compared to 9 months for TikTok and 70 months for Uber.
 
 
 ## Large Language Models (LLMs)
