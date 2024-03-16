@@ -1,35 +1,33 @@
-# Introduction to Large Language Model (the LLM) – what are they and how are they useful?
+# Use LLMs Effectively
 
 LLMs are a useful, practical productivity tool. They can help us do some tasks better and other tasks quicker.  
-Examples include ChatGPT from OpenAI and CoPilot from Microsoft.
 
-LLMs have ‘read’ a significant portion of the public internet and have been trained to provide relevant helpful responses to any questions we may pose to them.  For example, they can:
+
+LLMs have been trained to provide relevant helpful responses to any questions we may pose to them.  For example, they can:
 * provide step-by-step instructions for a task,
 * draft a letter with the right tone and style,
 * review and suggest improvements to a document or text,
 * brainstorm ideas on a topic and
 * explain and summarise a document.
 
-Most commercial popular LLMs have a free and paid versions.  In this course, the free version is sufficient for most tasks. To sign up, open a browser and go to OpenAI's official LLMs page at  https://chat.openai.com. You can sign up in the usual way, using an email address or via a Google/Microsoft/Apple account.
+Most commercial popular LLMs have both free and paid versions.  In this course, the free version is sufficient for most tasks. 
 
-In the exercises, you will use a LLM to provide helpful answer to relevant tasks.
-
-LLMs have weaknesses as well as its considerable strengths and here are the three points to bear in mind:
+In the exercises, you will use a LLM to provide helpful answer to relevant tasks.  Before you start, note that LLMs have weaknesses as well as considerable strengths.  Here are the three points to bear in mind:
 1. LLMs can make mistakes. Always check any important results independently.
 2. LLMs remember and learn from every prompt. Never put any confidential information into LLMs. Keep your data private.
 3. LLMs have learnt from everything on the internet: all the amazing, wonderful content but also some undesirable stuff. They have “guard rails” in place but they are capable of bias so review its output carefully!
 
 ## Exercise 1: Get Started With LLMs
 
-To get started, sign in to a  LLM (ChatGPT, Copilot or Gemini)
+To get started, sign in to your preferred LLM (ChatGPT, Copilot or Gemini)
 
 ### Task 1
-Ask the LLM a question (provide a prompt) and read its response.  Consider:
+Ask the LLM a few questions and studdy its responses.  Consider:
 * was the response helpful?  
 * was the response what you expected?
 
 ### Task 2
-Continue the conversation and provide a follow up prompt, with more specific details and/or a clarification / extension of your original question.  Consider:
+Continue the conversation and provide a follow up prompt, with more specific details and/or a clarification or extension of your original question.  Consider:
 * does this improve the LLM's response?
 * how much does this feel like a natural conversation?
 You  can continue to add further follow up prompts based on the latest response in an iterative manner
