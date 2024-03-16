@@ -46,11 +46,11 @@ Prompt 4: Write a SQL statement to list the patients that were admitted between 
 ## Exercise 1: Analyse a dataset
 
 Use the LLM to provide insights into a dataset.  Choose one of the following datasets:
-* [Titanic Passengers](https://zomalextrainingstorage.blob.core.windows.net/datasets/misc/Titanic Data.xlsx)
+* [Titanic Passengers](<https://zomalextrainingstorage.blob.core.windows.net/datasets/misc/Titanic Data.xlsx>)
 * A list of 32 American supercars from the 1970's [MT Cars](https://zomalextrainingstorage.blob.core.windows.net/datasets/misc/mtcars.xlsx)
 * [Bank Churn Data](https://zomalextrainingstorage.blob.core.windows.net/datasets/misc/Churn.csv)
 * [Airports in Europe](https://zomalextrainingstorage.blob.core.windows.net/datasets/Airports/eu-airports.csv)
-* Results from BBC's Saturday evening dancing competition in Autum 2023 [Strictly](https://zomalextrainingstorage.blob.core.windows.net/datasets/misc/Strictly Data.xlsx)
+* Results from BBC's Saturday evening dancing competition in Autum 2023 [Strictly](<https://zomalextrainingstorage.blob.core.windows.net/datasets/misc/Strictly Data.xlsx>)
 * or any other public data that you prefer
 
 Some LLMs have capabilities to import a dataset e.g. ChatGPT Data Analyst.  If your LLM can import the dataset, 
