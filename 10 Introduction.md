@@ -1,10 +1,10 @@
 # Introduction to Generative AI
 
-## Some definitions
+## Generative AI and Large Language Models in a nutshell
+
 Let's start with some informal definitions
 * AI – a computer does something that a person would normally do
 * Generative – create _new_ content.  This content can be audio, video (images and movies) or text.  We are going to focus on text.
-
 
 Examples of "traditional" AI include:
 * when the bank approves your credit card transaction or 
@@ -16,41 +16,16 @@ Traditional AI uses patterns in data and algorithms to estimate
 
 Traditional AI labels data but does not create new data. Generative AI differs from "traditional" AI.
 
-## The shortest history of Generative AI
-
-Generative AI seems to have arrived suddenly but in fact it has a long gestation.  Here are a few moments of history.
-* 1956, Artificial Intelligence (AI) was born with the ambition to create intelligent machines at the [Dartmouth Workshop](https://en.wikipedia.org/wiki/Dartmouth_workshop)
-* 1997, Machine Learning (ML), _statistical_ learning from **data and predictions.**
-* 2000s, commercial use of early single purpose Generative AI: Google Translate (2006), Siri (2011), autocomplete when texting on a phone
-* 2017, deep learning, a ML technique inspired by the wiring in our brains takes off. (In deep learning, "neurons" are connected into layers and the weights of the connections between neurons can be adjusted so that the neural net can "learn".)
-* 2021, an extension of the neural net approach using a new  "transformer" architecture yields results.
-
-Given that long history, what is the reason for the recent excitement? These LLMs have very recently become **much** more powerful and capable.  For example, in 2023, OpenAI released ChatGPT-4 which can do some very impressive things:
-* score more highly on the SAT, a US-based university entrance exam, better than 90% of people,
-* pass some university level exams in law, medicine,
-* set out arguments in favour and against a certain thing e.g. vaping
-* play an expert role e.g. act a a Python expert and write code.
-* write a job description.
-Anybody can use ChatGPT and with a few hours training can use it very effectively - no coding proficiency or technical skills are required. 
-
-Because of these factors,  ChatGPT took only 2 months to reach 100m users, compared to 9 months for TikTok and 70 months for Uber.
-
-
 ## Large Language Models (LLMs)
 
-A large language model is a type of Generative AI program designed to understand, generate, and interact with human language. It's trained on vast amounts of text data.  It repeatedly predicts the next word in a sentence to build a response to a prompt.  It can answer questions, write essays, and create code. 
+A large language model is a type of Generative AI program designed to understand, generate, and interact with human language. It's trained on vast amounts of text data.  An LLM uses statistical analysis and language modelling techniques to repeatedly predicts the next word in a sentence to build a response to a prompt.
+
+It does not always choose the _most_ probable next word. This is controlled by a setting named "temperature" If the temperature becomes warmer, the LLM is less likely to choose the most probable word and the output becomes more creative. 
+
+It can answer questions, write essays, and create code. 
 Here are a couple of useful terms
-* *prompt*  - input to the LLM, usuual a sentecnce or paragraph
+* *prompt*  - input to the LLM, usualyl a sentence or paragraph
 * *completion* - the output (or response) from the LLM  
-
-A large language model is trained on vast amounts of text data.  It repeatedly predicts the next word in a sentence to build a response to a prompt.  It can answer questions, write essays, and create code. 
-Here are a couple of useful terms
-* *prompt*  - input to the LLM, usuual a sentecnce or paragraph
-* *completion* - the output (or response) from the LLM  
-
-
-LLMs work by language modelling.  They are trained on a **massive** amount of text.
-Given a series of words (tokens), an LLM predicts next word (token) based on probability.  It does this by statistical analysis of a lot of text.  It does not always choose the _most_ probable next word to simulate creativity. This is controlled by temperature setting, warmer=more creative. 
 
 For example, here are three different completions of the next three words of a prompt "A tasty breakfast"
 * could vary depending
@@ -73,12 +48,24 @@ LLMs generate text from scratch, starting with a prompt. The prompt could
 - and perform lots of technical/software tasks: e.g. explain an Excel formula, write Python code.
 There will be a practical exercise to use LLMs effectively.
 
+## The shortest history of Generative AI
 
-### Knowledge Check
-Which of the following is true of LLMs?
-1. They give exactly the same response every time?
-2. They do things perfectly, you can trust results 100%!
-3. They are good at initial first drafts - but treat with care and check.
+Generative AI seems to have arrived suddenly but in fact it has a long gestation.  Here are a few moments of history.
+* 1956, Artificial Intelligence (AI) was born with the ambition to create intelligent machines at the [Dartmouth Workshop](https://en.wikipedia.org/wiki/Dartmouth_workshop)
+* 1997, Machine Learning (ML), _statistical_ learning from **data and predictions.**
+* 2000s, commercial use of early single purpose Generative AI: Google Translate (2006), Siri (2011), autocomplete when texting on a phone
+* 2017, deep learning, a ML technique inspired by the wiring in our brains takes off. (In deep learning, "neurons" are connected into layers and the weights of the connections between neurons can be adjusted so that the neural net can "learn".)
+* 2021, an extension of the neural net approach using a new  "transformer" architecture yields results.
+
+Given that long history, what is the reason for the recent excitement? These LLMs have very recently become **much** more powerful and capable.  For example, in 2023, OpenAI released ChatGPT-4 which can do some very impressive things:
+* score more highly on the SAT, a US-based university entrance exam, better than 90% of people,
+* pass some university level exams in law, medicine,
+* set out arguments in favour and against a certain thing e.g. vaping,
+* play an expert role e.g. act a a Python expert and write code,
+* write a job description.
+Anybody can use ChatGPT and with a few hours training can use it very effectively - no coding proficiency or technical skills are required. 
+
+Because of these factors,  ChatGPT took only 2 months to reach 100m users, compared to 9 months for TikTok and 70 months for Uber.
  
 ### Multi model models
 Models can take in data and respond in several formats (text, audi, images, video).  Current examples:
@@ -105,7 +92,6 @@ For example, what do you think this Python snippet does?
 >    ]  
 > )  
 
-
 ### How to we make AI do what we want to do 
 
 One framework is the HHH framework
@@ -114,7 +100,6 @@ One framework is the HHH framework
 -	Harmless – do not exhibit bias or is offensive.  Does not suggest harmful or dangerous activities
 More fine tuning is done to make the model be more HHH.
 
-
 ### Problems with LLMs
 
 LLMs are not a perfect technology.  There have a few drawbacks:
@@ -122,3 +107,9 @@ LLMs are not a perfect technology.  There have a few drawbacks:
 * LLMs will make things up.  A famous example is Google’s Bard mistakenly stating that the James Webb telescope took the first picture of an exo-planet, which when refuted led a a $9bn drop in Google’s share price.
 * Generative AI may be used by bad actors to generate untrue messages, articles, to do bad things e.g. interfere with elections
 * Jobs will be lost (and some will be won) but there will be economic disruption
+
+### Knowledge Check
+Which of the following is true of LLMs?
+1. They give exactly the same response every time?
+2. They do things perfectly, you can trust results 100%!
+3. They are good at initial first drafts - but treat with care and check.
