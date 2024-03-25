@@ -1,6 +1,6 @@
 # How do LLMs work?
 
-This section describes how LLMs work under the covers.  You don't need to know this to use LLMs effectively but it offer context as to their strengths and weaknesses.
+This section describes how LLMs work under the covers.  You don't need to know this to use LLMs effectively but it helps to understand the reasons for their strengths and weaknesses.
 
 ##  How to build a LLM
 
@@ -9,10 +9,9 @@ This section describes how LLMs work under the covers.  You don't need to know t
 Download a lot of text (a corpus), preferably the entire internet.  
 
 Go through the next steps repeatedly for over the whole corpus in a process called self-supervised learning.  This will cost $100m, takes several months and generate several hundred tons of CO<sub>2</sub>.
-* Remove the last part of a sentence
+* Remove the last part of a sentence.
 * Let the LLM guess / predict the continuations - the next word(s).
-* Adjust the model to match the actual continuations (the ground truth).  After a while the model gets really good
-at this "guess the next word" game. 
+* Adjust the model to match the actual continuations (the ground truth).  After a while the model gets really good at this "guess the next word" game. 
 
 ### Next step: Re-inforcement learning with human feedback (fine-tuning)
 
@@ -21,10 +20,10 @@ At this point the model is pre-trained and will just continue / complete text.  
 As the model grows in size, it shows  surprising “emergent behaviours”: 
 * be able to crack jokes, 
 * provide step-by-step instructions, 
-* perform chain of thought reasoning
-* act in a role
-* write poetry
-* solve algebraic equations
+* perform chain of thought reasoning,
+* act in a role,
+* write poetry,
+* solve algebraic equations and
 * provide strategic advice to directors of large organisations!
 
 ## How LLMs work
@@ -34,8 +33,8 @@ An LLM is based on an AI approach known as deep learning.  This uses a structure
 <br/>Source: https://www.frontiersin.org/files/Articles/1290880/fphy-11-1290880-HTML/image_m/fphy-11-1290880-g001.jpg
 
 This contains nodes (or neurons, or simply numbers) and connections (lines, or sometimes called edges) between the nodes.  The nodes are arranged in several layers:
-* the input layer – the values of these nodeas are set to the context of the words)
-* Several hidden layers – these help the neural net to generalise
+* the input layer – the values of these nodes are set to the words at  the start of the sentence
+* several hidden layers – these help the neural net to generalise
 * the output layer – the output of the nodes in this layer makes the prediction of the next word.
 
 A node is connected to *all* the  nodes in the previous layer by the connections. Each of these connections has a weight (a number) and it is these weights that are adjusted during the training so that the predictions and closer to the actual output values. 

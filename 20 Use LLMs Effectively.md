@@ -1,6 +1,6 @@
 # Use LLMs Effectively
 
-LLMs are a useful, practical productivity tool. They can help us do some tasks better and other tasks quicker.  LLMs have been trained to provide relevant helpful responses to any questions we may pose to them.  For example, they can:
+LLMs are a useful, practical, productivity tool. They can help us do some tasks better and other tasks quicker.  LLMs have been trained to provide relevant helpful responses to any questions we may pose to them.  For example, they can:
 * provide step-by-step instructions for a task,
 * draft a letter with the right tone and style,
 * review and suggest improvements to a document or text,
@@ -16,7 +16,7 @@ In the exercises, you will use a LLM to provide helpful answer to relevant tasks
 
 ## Exercise: Get Started With LLMs
 
-To get started, sign in to your preferred LLM (ChatGPT, Copilot or Gemini)
+To get started, sign in to your preferred LLM (ChatGPT, Copilot, Gemini or other).
 
 ### Task 1
 Ask the LLM a few questions and studdy its responses.  Consider:
@@ -26,8 +26,8 @@ Ask the LLM a few questions and studdy its responses.  Consider:
 ### Task 2
 Continue the conversation and provide a follow up prompt, with more specific details and/or a clarification or extension of your original question.  Consider:
 * does this improve the LLM's response?
-* how much does this feel like a natural conversation?
-You  can continue to add further follow up prompts based on the latest response in an iterative manner
+* how much does this feel like a natural conversation?  
+You  can continue to add further follow up prompts based on the latest response in an iterative manner.
 
 ### Task 3
 Try various styles of conversation and tasks.  For example, ask the LLM to brainstorm, plan, explain, summarise and critique, and suggest solutions to problems. Here are some suggestions to get you started but please use your own ideas.
@@ -96,11 +96,7 @@ Role: Act as an expert in holiday planning.  Your clients live in the UK.  Keep 
 
 Instructions: Suggest 5 ideas for good summer holiday for a family from London.
 
-Constraints / Context:  Here is some more information about us. We live in London but would like to holiday abroad. We like exploring cities but also want to get out of the city to walk in beautiful countryside. We are interested in football stadiums, so we would consider visiting cities that are home to a prominent football team. Please revise your suggestions
-
-We don't want to fly to go on holiday.  We are happy to take the train or do a cruise.   Please revise your suggestions.
+Constraints / Context:  Here is some more information about us. We live in London but would like to holiday abroad. We like exploring cities but also want to get out of the city to walk in beautiful countryside. We are interested in football stadiums, so we would consider visiting cities that are home to a prominent football team. We don't want to fly to go on holiday.  We are happy to take the train or do a cruise.   Please revise your suggestions.
 
 Here is an example of the type of response I need.  
-Milan is a lovely city for families on holiday.  It has many attractions e.g. the Duomo, Michaelangelo's Last Supper.  
-There are beautiful tourist locations near to the city. for example, Bergamo is a historic hilltop town only a short train journey from Milan.  The famous San Siro football stadium, used by both AC Milan and Inter Milan, is situated on the outskirts of the city.
-Milan can be reached by train from London with an overnight stop in Paris.
+Milan is a lovely city for families on holiday.  It has many attractions e.g. the Duomo, Michaelangelo's Last Supper.  There are beautiful tourist locations near to the city. for example, Bergamo is a historic hilltop town only a short train journey from Milan.  The famous San Siro football stadium, used by both AC Milan and Inter Milan, is situated on the outskirts of the city.  Milan can be reached by train from London with an overnight stop in Paris.

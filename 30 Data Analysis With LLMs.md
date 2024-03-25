@@ -21,46 +21,45 @@ Some specific current examples of data analysis capabilities are:
 * ChatGPT 4 can receive both text and images about data
 * the ChatGPT Data Analyst plugin will read data files
 
-## Example: Patient Stay dataset
+## Exercise: Analyse the 'Patient Stay' dataset
 
-The (fictitious) dataset for this example is [here](https://zomalextrainingstorage.blob.core.windows.net/datasets/misc/PatientStay.csv)
+The (fictitious) dataset for this example is [here](https://zomalextrainingstorage.blob.core.windows.net/datasets/misc/PatientStay.csv). Have a look at the data and form your own opinions about how you would analyse it. Then start a new conversation with your LLM  using the prompts below as a starter.
 
-Prompt 1 : 
-
-Acts as a data analyst with knowledge of SQL. You have a dataset about patients admitted to a ward in a hospital.  It is available as a SQL table named `PatientStay`.  Each row in the table represents a patient admission.  The dataset contains the following columns.
+_Prompt 1:_ Acts as a data analyst with knowledge of SQL. You have a dataset about patients admitted to a ward in a hospital.  It is available as a SQL table named `PatientStay`.  Each row in the table represents a patient admission.  The dataset contains the following columns.
 
 - `PatientId` (int): The unique ID of the patient.
-- `AdmittedDate` (date): The date on whcih the patient was admitted
-- `Hospital` (varchar): The name of the hospital
+- `AdmittedDate` (date): The date on which the patient was admitted.
+- `Hospital` (varchar): The name of the hospital.
 - `Ward` (varchar): The name of the ward.
-- `Tariff` (float): The cost to treat the patient
-- `Ethnicity` (varchar): The ethnicity of the patient e.g., White, Asian. For some rows this value is missing (null)
+- `Tariff` (float): The cost to treat the patient.
+- `Ethnicity` (varchar): The ethnicity of the patient e.g., White, Asian. For some rows this value is missing (null).
 
-Prompt 2: Suggest some data analysis questions that could be answered with this dataset.
+_Prompt 2:_ Suggest some data analysis questions that could be answered with this dataset.
 
-Prompt 3: Write a SQL statement to list the patients that were admitted to either "Guy's Hospital" or "St Georges".
+_Prompt 3:_ Write a SQL statement to list the patients that were admitted to either "Guy's Hospital" or "St Georges".
 
-Prompt 4: Write a SQL statement to list the patients that were admitted between two dates
+_Prompt 4:_ Write a SQL statement to list the patients that were admitted between two dates
 
 
-## Exercise 1: Analyse a dataset
+## Exercise: Analyse a dataset
 
-Use the LLM to provide insights into a dataset.  Choose one of the following datasets:
+Use the LLM to provide insights into a dataset.  Choose one of the following datasets below or any other public data that you prefer.
+
 * [Titanic Passengers](<https://zomalextrainingstorage.blob.core.windows.net/datasets/misc/Titanic Data.xlsx>)
 * A list of 32 American supercars from the 1970's [MT Cars](https://zomalextrainingstorage.blob.core.windows.net/datasets/misc/mtcars.xlsx)
 * [Bank Churn Data](https://zomalextrainingstorage.blob.core.windows.net/datasets/misc/Churn.csv)
 * [Airports in Europe](https://zomalextrainingstorage.blob.core.windows.net/datasets/Airports/eu-airports.csv)
 * Results from BBC's Saturday evening dancing competition in Autum 2023 [Strictly](<https://zomalextrainingstorage.blob.core.windows.net/datasets/misc/Strictly Data.xlsx>)
-* or any other public data that you prefer
+
 
 Some LLMs have capabilities to import a dataset e.g. ChatGPT Data Analyst.  If your LLM can import the dataset, 
 * ask the LLM to provide insights, charts, and 
 * _possibly_ show the Python code to create those charts.
 
 If your LLM  cannot  import the dataset, describe the data structure (a one line description of the table: list the column names and possibly add a short description for each), and ask the LLM to
-* describe the dataset
-* suggest ways that this data can be analysed
-* write SQL or Python code or Excel formulas to analyse or summarise the dataset
+* describe the dataset,
+* suggest ways that this data can be analysed,
+* write SQL or Python code or Excel formulas to analyse or summarise the dataset.
 
 In both cases, add follow-on questions, for example:
 * how would we add a new column that combines X and Y?
