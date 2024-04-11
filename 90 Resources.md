@@ -10,6 +10,9 @@ At a recent Turing Institute lecture, Mirella Lapata gave a wonderful overview. 
 
  Henrik Kniberg has a short video on how to survive and thrive in the age of AI. [Generative AI in a Nutshell](https://www.youtube.com/watch?v=2IK3DFHRFfw).
 
+
+Google has a good [Introduction to Generative AI](https://www.youtube.com/watch?v=G2fqAlgmoPo) on YouTube.
+
 ## More technical details about how LLMs work 
 
 Andrej Kaparthy explains the maths of back propogation in neural nets. [The spelled-out intro to neural networks and backpropagation: building micrograd](https://youtu.be/VMj-3S1tku0?si=_guPyeexsGlA7nvn).
