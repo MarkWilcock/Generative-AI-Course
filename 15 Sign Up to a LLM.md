@@ -19,3 +19,6 @@ The [Copilot Labs](https://copilot.cloud.microsoft/en-GB/prompts?ocid=copilot_ak
 ## Google Gemini
 The sign up page is [here](https://gemini.google.com/). You will need a Google account – if you don’t already have one, you can create one for free.
 
+## Anthropic's Claudse
+
+The sign up page is [here](https://claude.ai/chats).  You can sign in with an email address or a Google account.
