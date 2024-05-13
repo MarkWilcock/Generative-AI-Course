@@ -6,7 +6,7 @@ Let's start with some informal definitions
 * AI – a computer does something that a person would normally do
 * Generative – create _new_ content.  This content can be audio, video (images and movies) or text.  We are going to focus on text.
 
-Examples of "traditional" AI include:
+This is a course about Generative AI. Generative AI differs from "traditional" AI.  Traditional AI labels data but does not create new data. Examples of "traditional" AI include:
 * when the bank approves your credit card transaction or 
 * when Amazon / YouTube / Netflix recommend a book / video / movie.
 
@@ -14,7 +14,6 @@ Traditional AI uses patterns in data and algorithms to estimate
 * how much / many  of a thing (regression) or 
 * to decide if a thing is in a particular class e.g. is the image that of a dog, a cat, or neither (classification).  
 
-Traditional AI labels data but does not create new data. Generative AI differs from "traditional" AI.
 
 ## Large Language Models (LLMs)
 
