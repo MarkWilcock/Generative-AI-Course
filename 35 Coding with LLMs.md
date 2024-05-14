@@ -8,6 +8,6 @@ LLMs are exceptionally good at helping us understand, learn, and write code.  SQ
 * If our code has generated an error, they can explain why the error occurred, explain how to fix it and possibly fix it for us.
 
 Examples of code assistants include:
-* GitHub CoPilot:  Works with popular VSCode editor, popular especially for Python;
-* CoPilot in Microsoft Fabric Python notebooks;
+* GitHub Copilot:  Works with popular (free) VSCode editor.  It is popular for Python and SQL.
+* Copilot in Microsoft Fabric Python notebooks;
 * (In beta currently), an assistant in Google Colab Python notebooks.

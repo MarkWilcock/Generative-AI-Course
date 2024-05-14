@@ -23,7 +23,7 @@ Some specific current examples of data analysis capabilities are:
 
 ## Exercise: Analyse the 'Patient Stay' dataset
 
-The (fictitious) dataset for this example is [here](https://zomalextrainingstorage.blob.core.windows.net/datasets/misc/PatientStay.csv). Have a look at the data and form your own opinions about how you would analyse it. Then start a new conversation with your LLM  using the prompts below as a starter.
+Download the (fictitious) dataset for this example from [here](https://zomalextrainingstorage.blob.core.windows.net/datasets/misc/PatientStay.csv). Have a look at the data and form your own opinions about how you would analyse it. Then start a new conversation with your LLM  using the prompts below as a starter.
 
 _Prompt 1:_ Acts as a data analyst with knowledge of SQL. You have a dataset about patients admitted to a ward in a hospital.  It is available as a SQL table named `PatientStay`.  Each row in the table represents a patient admission.  The dataset contains the following columns.
 

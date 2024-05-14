@@ -1,6 +1,7 @@
 # Use LLMs Effectively
 
 LLMs are a useful, practical, productivity tool. They can help us do some tasks better and other tasks quicker.  LLMs have been trained to provide relevant helpful responses to any questions we may pose to them.  For example, they can:
+* answer a question with useful relevant information, 
 * provide step-by-step instructions for a task,
 * draft a letter with the right tone and style,
 * review and suggest improvements to a document or text,
@@ -16,7 +17,7 @@ In the exercises, you will use a LLM to provide helpful answer to relevant tasks
 
 ## Exercise: Get Started With LLMs
 
-To get started, sign in to your preferred LLM (ChatGPT, Copilot, Gemini or other).
+To get started, sign in to your preferred LLM (ChatGPT, Copilot, Clausde, Gemini or other).
 
 ### Task 1
 Ask the LLM a few questions and studdy its responses.  Consider:
@@ -78,9 +79,9 @@ A basic instruction alone may not result in a good response.  Here are a few poi
 
 ### Exercise: Improve the LLM responses
 
-In this exercise we gradually improve our prompts to improve the responses from the LLM.  We start with a vague prompt and the LLM replies in a good but not particularly helpful manner. We then uses the RICE framework to improve his prompts and the LLM responds with more useful suggestions.
+In this exercise we gradually improve our prompts to improve the responses from the LLM.  We start with a vague prompt and the LLM replies in a good but not particularly helpful manner. We then use the RICE framework to improve our prompts and the LLM responds with more useful suggestions.
 
-We will work in groups of about 4 - 5 people in breakout rooms.   Students may want to give themselves 10 minutes or so experimenting with the LLM individually before coming together as a group. 
+We will work in groups of about 4 - 5 people in breakout rooms.   Students may want to give themselves 10 minutes or so to experiment with the LLM individually before coming together as a group. 
 
 In the instructions there are some example prompts, to plan a family summer holiday, but please use your own ideas. 
 
