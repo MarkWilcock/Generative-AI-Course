@@ -1,4 +1,4 @@
-# Use AI Tools for Data Analysis
+# Use AI Tools for Data Analysis and Coding
 
 AI tools can help us explore, understand and visualise a dataset. We often will use a language such as SQL, Python or DAX (the data modelling and calculation language of Power BI) for our data analysis.  There is a specific section later in the course for each of these.
 
@@ -23,9 +23,24 @@ Some specific current examples of data analysis capabilities are:
 * ChatGPT 4 can receive both text and images about data
 * the ChatGPT Data Analyst plugin will read data files
 
+# AI Code assistenat / Pair Programmers 
+
+AI Tools are exceptionally good at helping us understand, learn, and write code.  When these tools are embedded into our code editor, they are known as called code-assistants or pair-programmers.  They help in many ways:
+* If we are writing a line of code, they can suggest possible ways we want to complete that line or block of code.
+* We can state our intent (what we want to do) in English (other human languages are available possibly to lesser extents) in a comment line and they will write the code below the comment.
+* They can review, explain, and add comments to existing code.
+* They can improve the code to a better standard and quality.
+* If our code has generated an error, they can explain why the error occurred, explain how to fix it and possibly fix it for us.
+
+Examples of code assistants include:
+* GitHub Copilot:  Works with popular (free) VSCode editor.  It is popular for Python and SQL.
+* Copilot in Microsoft Fabric Python notebooks;
+* (In beta currently), an assistant in Google Colab Python notebooks.
+
+
 ## Exercise: Analyse a dataset
 
-Use the LLM to provide insights into a dataset.  Choose one of the following datasets below or any other public data that you prefer.
+Use an AI tool to provide insights into a dataset.  Choose one of the following datasets below or any other public data that you prefer.
 
 * [Titanic Passengers](<https://zomalextrainingstorage.blob.core.windows.net/datasets/misc/Titanic Data.xlsx>)
 * A list of 32 American supercars from the 1970's [MT Cars](https://zomalextrainingstorage.blob.core.windows.net/datasets/misc/mtcars.xlsx)
@@ -34,11 +49,11 @@ Use the LLM to provide insights into a dataset.  Choose one of the following dat
 * Results from BBC's Saturday evening dancing competition in Autum 2023 [Strictly](<https://zomalextrainingstorage.blob.core.windows.net/datasets/misc/Strictly Data.xlsx>)
 
 
-Some LLMs have capabilities to import a dataset e.g. ChatGPT Data Analyst.  If your LLM can import the dataset, 
+Some AI tools have capabilities to import a dataset e.g. ChatGPT Data Analyst.  If your tool can import the dataset, 
 * ask the LLM to provide insights, charts, and 
 * _possibly_ show the Python code to create those charts.
 
-If your LLM  cannot  import the dataset, describe the data structure (a one line description of the table: list the column names and possibly add a short description for each), and ask the LLM to
+If your AI tool  cannot  import the dataset, describe the data structure (a one line description of the table: list the column names and possibly add a short description for each), and prompt it to
 * describe the dataset,
 * suggest ways that this data can be analysed,
 * write SQL or Python code or Excel formulas to analyse or summarise the dataset.
@@ -46,6 +61,3 @@ If your LLM  cannot  import the dataset, describe the data structure (a one line
 In both cases, add follow-on questions, for example:
 * how would we add a new column that combines X and Y?
 * summarise the data: sum column X and group by column Y
-
-
-
