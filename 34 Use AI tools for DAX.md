@@ -10,10 +10,13 @@ Note that Power BI tenants with a certain type of capacity license, can use Copi
 
 ### Getting started with this exercise
 
+In this exercise, we ask the AI tool to write DAX queries and measures based on a Power BI Data model that uses fictional data and has a standard star schem data model.  This is the model view.  
+![model view.](./Resources/Power%20BI%20Superstore%20Data%20Model.png)
+
 1. Launch Power BI Desktop and ensure that you have a recent version, preferably January 2024 or later.
 1. In Preview features, enable DAX Query View (if it is still a Preview feature in your version)
 1. Download [this Power BI file](./Resources/Superstore%20Data%20Model%20Only.pbix) and open it in Power BI Desktop.    
-1. The Power BI file contains a standard star schema data model.Review the data model, the table and column names, relationships etc.  Consider what DAX measures you would add to this model
+1. The Power BI file contains a standard star schema data model.Review the data model, the table and column names, relationships etc.  Consider what DAX measures you would add to this model.
 
 ### Ask the AI to generate DAX queries and define measures
 
@@ -52,7 +55,7 @@ _Prompt:_
 Write a query to define a measure 'Number of Transactions'
 
 
-There is an shared ChatGPT conversation based on this example exercise [here](https://chatgpt.com/c/3ee39673-5e94-4ca5-a593-4cd6900a1be8)
+There is a shared ChatGPT conversation based on this example exercise [here](https://chatgpt.com/c/3ee39673-5e94-4ca5-a593-4cd6900a1be8).
 
 
 
