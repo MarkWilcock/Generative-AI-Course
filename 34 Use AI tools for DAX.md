@@ -20,7 +20,7 @@ In this exercise, we ask the AI tool to write DAX queries and measures based on 
 
 ### Ask the AI to generate DAX queries and define measures
 
-Go to a new tab in the DAX Query View.  Here are a set of prompts you can use to ask the AI to generate DAX queries.  Use these as a starting point.  You may want to copy the response to each prompt into a new tab in the query view and add the initial prompt as a comment
+Here are a set of prompts you can use to ask the AI to generate DAX queries.  Use these as a starting point.  You may want to copy the response to each prompt into a new tab in the query view and add the initial prompt as a comment
 
 The initial prompt refers to an image of a data model.  You can download it from [here](./Resources/Power%20BI%20Superstore%20Data%20Model.png)
 
