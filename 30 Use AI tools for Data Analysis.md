@@ -1,11 +1,13 @@
-# Data Analysis with LLMs
+# Use AI Tools for Data Analysis
 
-Applications that have LLMs at their core, can help us explore and understand a dataset.  This dataset could have one or possibly several related tables. 
+AI tools can help us explore, understand and visualise a dataset. We often will use a language such as SQL, Python or DAX (the data modelling and calculation language of Power BI) for our data analysis.  There is a specific section later in the course for each of these.
 
-We can provide information about the data in a few ways:
+
+This dataset could have one or possibly several related tables. For best results, we provide information about the data in an initial scene-setting prompt.  We can do this in a few ways:
 * as an image of the structure of the table(s): column names and possibly data types.  This could be a snapshot of the model view of a Power BI data model, or an entity relation diagram of a database, 
 * as text: a list of tables and for each table, a list of the columns, or
 * as data: for example, tabular data in CSV or Excel files
+
 
 The LLM can then
 * provide a summary of the data and pattern e.g. identify as a star-schema arrangement of tables and label each table as a fact or dimension table,
@@ -20,26 +22,6 @@ If data was provided, the LLM can:
 Some specific current examples of data analysis capabilities are:
 * ChatGPT 4 can receive both text and images about data
 * the ChatGPT Data Analyst plugin will read data files
-
-## Exercise: Analyse the 'Patient Stay' dataset
-
-Download the (fictitious) dataset for this example from [here](https://zomalextrainingstorage.blob.core.windows.net/datasets/misc/PatientStay.csv). Have a look at the data and form your own opinions about how you would analyse it. Then start a new conversation with your LLM  using the prompts below as a starter.
-
-_Prompt 1:_ Acts as a data analyst with knowledge of SQL. You have a dataset about patients admitted to a ward in a hospital.  It is available as a SQL table named `PatientStay`.  Each row in the table represents a patient admission.  The dataset contains the following columns.
-
-- `PatientId` (int): The unique ID of the patient.
-- `AdmittedDate` (date): The date on which the patient was admitted.
-- `Hospital` (varchar): The name of the hospital.
-- `Ward` (varchar): The name of the ward.
-- `Tariff` (float): The cost to treat the patient.
-- `Ethnicity` (varchar): The ethnicity of the patient e.g., White, Asian. For some rows this value is missing (null).
-
-_Prompt 2:_ Suggest some data analysis questions that could be answered with this dataset.
-
-_Prompt 3:_ Write a SQL statement to list the patients that were admitted to either "Guy's Hospital" or "St Georges".
-
-_Prompt 4:_ Write a SQL statement to list the patients that were admitted between two dates
-
 
 ## Exercise: Analyse a dataset
 
