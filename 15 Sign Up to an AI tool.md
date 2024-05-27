@@ -1,6 +1,6 @@
-# Sign up to a free LLM service
+# Sign up to the free service of an AI tool
 
-During the course, there are several lab exercises to interact and experiment with LLMs.  There are several popular LLMs that offer a free version which is sufficient for most of the exercises.  Students are free to use any service but here are a few suggested options: ChatGPT, Copilot, Claude and Gemini.  These are all available using a browser - no installation is required.
+During the course, there are several lab exercises to interact and experiment with AI tools.  There are several popular AI tools that offer a free version which is sufficient for most of the exercises.  Students are free to use any service but here are a few suggested options: ChatGPT, Copilot, Claude and Gemini.  These are all available using a browser - no installation is required.
 
 ## ChatGPT
 The official ChatGPT page at https://chat.openai.com. You can sign up in the usual way, using an email address or via a Google, Microsoft or Apple account.

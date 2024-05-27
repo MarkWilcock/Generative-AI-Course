@@ -1,6 +1,6 @@
-# How do LLMs work?
+# How does Generative AI work?
 
-This section describes how LLMs work under the covers.  You don't need to know this to use LLMs effectively but it helps to understand the reasons for their strengths and weaknesses.
+This section describes how generative AI work under the covers.  You don't need to know this to use LLMs effectively but it helps to understand the reasons for their strengths and weaknesses.  Most of the AI tools we use in this course are based on large language model (LLM).
 
 ##  How to build a LLM
 
