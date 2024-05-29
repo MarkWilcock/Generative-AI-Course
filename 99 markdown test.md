@@ -60,3 +60,7 @@ Image 2 ![ChatGPT UX](./images/ChatGPT.jpg)
 Image 1 ![ChatGPT UX][def1]
 
 [def1]: images/ChatGPT.jpg
+
+private comment before
+<!-- some private stuff here -->
+private comment after
