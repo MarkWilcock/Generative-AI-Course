@@ -20,7 +20,7 @@ In the exercises, you will use a AI tool to provide helpful answer to relevant t
 To get started, sign in to your preferred AI tool (ChatGPT, Copilot, Clausde, Gemini or other).
 
 ### Task 1
-Ask the AI tool a few questions and studdy its responses.  Consider:
+Ask the AI tool a few questions and study its responses.  Consider:
 * was the response helpful?  
 * was the response what you expected?
 

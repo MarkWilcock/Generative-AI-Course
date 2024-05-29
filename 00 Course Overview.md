@@ -4,7 +4,7 @@ These are the materials for a one day course - an introduction to Generative AI.
 
 The course covers:
 * an introduction to Generative AI and an explanation of LLMs;
-* getting started with generative AI; singing up to a free service
+* getting started with generative AI; signing up to a free service
 * a tour of some current Generative AI services and LLMs: Microsoft's Copilot, OpenAI's ChatGPT, Anthropic's Clause and Google's Gemini;
 * practical exercises on how to use LLMs effectively (prompt engineering) to be more productive in everyday tasks;
 
