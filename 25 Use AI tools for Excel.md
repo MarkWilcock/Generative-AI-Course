@@ -30,6 +30,17 @@ Explain the Excel XLOOKUP function with a few examples.
 A follow-up question could be: Should I use the XLOOKUP or VLOOKUP function in my Excel spreadsheet?
 
 
-_Prompt:_
+_Prompt: (to complete an Excel task, BMI matrix)_
 
+In Excel, I want to create a grid matrix  of values of body mass index (BMI) for a set of weights (60, 70, 80 100 Kg) on the row headers and  heights (1.6,1.7, 1.8, 2.0 metres) on the column headers.  The BMI formula is weight / (height * height).  How do I do this?
+
+_Prompt: (to complete an Excel task, stack data)_
+
+My spreadsheet has three tables named Jan, Feb and Mar. The tables have the same structure as in the example below.
+
+Date	Category	Amount
+13/01/2024	Alpha	10
+26/01/2024	Beta	20
+
+Write an Excel formula to stack the data in these three tables into a combined table
 
