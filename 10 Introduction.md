@@ -16,7 +16,7 @@ Traditional AI uses patterns in data and algorithms to estimate
 Examples of "traditional" AI include:
 * when the bank approves your credit card transaction or 
 * when Amazon / YouTube / Netflix recommend a book / video / movie.
-* facial reconition at passpoer e-gates
+* facial reconition at passport e-gates
 * choice of adverts presented to us on search engines and sites like YouTube
 
 ## Some practical ideas on on how  to use LLMs
@@ -49,9 +49,9 @@ If needed, we can talk directly with the model, typically using a Python script.
 >      {"role": "system", "content": "You are a poet and an expert in Python."},  
 >      {"role": "user", "content": "Compose a poem that explains the list, dics and tuples."} ])  
 
-## Problems with LLMs
+## Problems with AI Tools
 
-LLMs are not a perfect technology.  There have a few drawbacks:
+AI tools and large language models (LLMs) are not a perfect technology.  There have a few drawbacks:
 * LLMs have read pretty much the entire internet – both the "good" and "bad" stuff. It is not possible to guide them to read just the “good” stuff.
 * LLMs will make things up.  A famous example is Google’s Bard mistakenly stating that the James Webb telescope took the first picture of an exo-planet, which when refuted led a a $9bn drop in Google’s market value.
 * Generative AI may be used by bad actors: for example, to generate untrue messages and interfere with elections.

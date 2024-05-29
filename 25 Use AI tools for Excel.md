@@ -1,7 +1,6 @@
 # Use AI tools to help with Excel Challenges
 
-People who use Excel regularly appreciate that there are often challenges building Excel spreadsheets.  
-AI tools can help us become more productive with Excel in several ways. These include:
+People who use Excel regularly appreciate that there are often challenges building Excel spreadsheets.  AI tools can help us become more productive with Excel in several ways. These include:
 * get advice on how to perform an Excel task.  We can describe a problem in English to the AI tool and it will write the formulas required and explain how to apply (and possibly build an example spreadsheet);
 * understand the formulas and functions Excel spreadsheet (one we may have inherited for example);
 * understand how to use an Excel function (for example, choose good values for the arguments) or choose the appropriate function to use: e.g., is VLOOKUP or XLOOKUP better in a particular case?
@@ -36,11 +35,12 @@ In Excel, I want to create a grid matrix  of values of body mass index (BMI) for
 
 _Prompt: (to complete an Excel task, stack data)_
 
-My spreadsheet has three tables named Jan, Feb and Mar. The tables have the same structure as in the example below.
+My spreadsheet has three tables named Jan, Feb and Mar. All three  tables have the same structure as in the example below.
 
-Date	Category	Amount
-13/01/2024	Alpha	10
-26/01/2024	Beta	20
+| Date       | Category | Amount |
+|------------|----------|--------|
+| 13/01/2024 | Alpha    | 10     |
+| 26/01/2024 | Bravo    | 20     |
 
-Write an Excel formula to stack the data in these three tables into a combined table
+Write an Excel formula to stack the data in these three tables into a combined table.
 

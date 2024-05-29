@@ -2,20 +2,18 @@
 
 AI tools can help us explore, understand and visualise a dataset. We often will use a language such as SQL, Python or DAX (the data modelling and calculation language of Power BI) for our data analysis.  There is a specific section later in the course for each of these.
 
-
-This dataset could have one or possibly several related tables. For best results, we provide information about the data in an initial scene-setting prompt.  We can do this in a few ways:
+For best results, we provide information about the data in an initial scene-setting prompt.  We can do this in a few ways:
 * as an image of the structure of the table(s): column names and possibly data types.  This could be a snapshot of the model view of a Power BI data model, or an entity relation diagram of a database, 
 * as text: a list of tables and for each table, a list of the columns, or
 * as data: for example, tabular data in CSV or Excel files
 
-
-The LLM can then
+The AI can then
 * provide a summary of the data and pattern e.g. identify as a star-schema arrangement of tables and label each table as a fact or dimension table,
 * suggest strengths, weakness and improvements to the data structure,
 * suggest a list of questions that we can ask to understand more about the data, and 
 * provide those questions in actionable form perhaps as SQL or Python code.
 
-If data was provided, the LLM can:
+If data was provided, the AI can:
 * build a few charts to provide insights, 
 * write and execute some code to analyse the data and show the results.
 
@@ -23,7 +21,7 @@ Some specific current examples of data analysis capabilities are:
 * ChatGPT 4 can receive both text and images about data
 * the ChatGPT Data Analyst plugin will read data files
 
-# AI Code assistenat / Pair Programmers 
+# AI Code Assistants / Pair Programmers 
 
 AI Tools are exceptionally good at helping us understand, learn, and write code.  When these tools are embedded into our code editor, they are known as called code-assistants or pair-programmers.  They help in many ways:
 * If we are writing a line of code, they can suggest possible ways we want to complete that line or block of code.
@@ -37,7 +35,6 @@ Examples of code assistants include:
 * Copilot in Microsoft Fabric Python notebooks;
 * (In beta currently), an assistant in Google Colab Python notebooks.
 
-
 ## Exercise: Analyse a dataset
 
 Use an AI tool to provide insights into a dataset.  Choose one of the following datasets below or any other public data that you prefer.
@@ -50,7 +47,7 @@ Use an AI tool to provide insights into a dataset.  Choose one of the following 
 
 
 Some AI tools have capabilities to import a dataset e.g. ChatGPT Data Analyst.  If your tool can import the dataset, 
-* ask the LLM to provide insights, charts, and 
+* ask the AI to provide insights, charts, and 
 * _possibly_ show the Python code to create those charts.
 
 If your AI tool  cannot  import the dataset, describe the data structure (a one line description of the table: list the column names and possibly add a short description for each), and prompt it to

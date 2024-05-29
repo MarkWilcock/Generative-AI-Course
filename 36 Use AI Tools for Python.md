@@ -11,6 +11,7 @@ It contains 150 rows with the following columns:
 * `Petal Length`,  measured in cm
 * `Petal Width`,  measured in cm
 * `Species` , one of values `setosa`, `versicolor`, `virginica`
+
 Write the Python code to import this file, and create a scatter plot of Petal Length vs Sepal Length with Species on the legend.  Use the seaborn library for the visualisation.
 
 The AI tool may respond with some Python code like the example below
@@ -85,9 +86,19 @@ Answer these questions about this dict
 Here is a link to a shared ChatGPT conversation based on this example https://chatgpt.com/share/6e24bb88-dac5-48ef-9978-f4c7460d0929 
 
 
-##  Exercise: Try a more challenging Python task
+##  Exercise: a more challenging Python task
 
-Choose a task from one of the more advanced examples 
+If you are familiar with Python basics, choose a task from one of the more advanced examples in my Python course.  Copy the instrictions in comments or markdown into the prompt box for the AI tool and evaluate and test the response
+
+For example, there are exercises on:
+* writing a function https://github.com/MarkWilcock/Python-Course/blob/main/functions_exercise_bmi.ipynb
+* invoking an API https://github.com/MarkWilcock/Python-Course/blob/main/api_astronauts_exercise.ipynb 
+* cleaning data with pandas https://github.com/MarkWilcock/Python-Course/blob/main/analyse%20data%20with%20pandas/pandas_titanic_exercise.ipynb 
+* the numpy package https://github.com/MarkWilcock/Python-Course/blob/main/analyse%20data%20with%20pandas/numpy_exercise.ipynb 
+* visualising a dataset with seaborn https://github.com/MarkWilcock/Python-Course/blob/main/visualise%20data%20with%20seaborn/viz_survey.ipynb 
+
+
+
 
 
 

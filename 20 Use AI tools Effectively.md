@@ -1,6 +1,6 @@
 # Use AI tools Effectively
 
-AI tools are a useful, practical, productivity tool. They can help us do some tasks better and other tasks quicker.  AI tools have been trained to provide relevant helpful responses to any questions we may pose to them.  For example, they can:
+Generative AI tools are useful to us _today_. They can help us do some tasks better and other tasks quicker.  AI tools, such as large language models, have been trained to provide relevant helpful responses to any questions we may pose to them.  For example, they can:
 * answer a question with useful relevant information, 
 * provide step-by-step instructions for a task,
 * draft a letter with the right tone and style,
@@ -13,13 +13,14 @@ Most commercial popular AI tools have both free and paid versions.  In this cour
 In the exercises, you will use a AI tool to provide helpful answer to relevant tasks.  Before you start, note that AI tools have weaknesses as well as considerable strengths.  Here are the three points to bear in mind:
 1. AI tools can make mistakes. Always check any important results independently.
 2. AI tools remember and learn from every prompt. Never put any confidential information into AI tools. Keep your data private.
-3. AI tools have learnt from everything on the internet: all the amazing, wonderful content but also some undesirable stuff. They have “guard rails” in place but they are capable of bias so review its output carefully!
+3. AI tools have learnt from everything on the internet: all the amazing, wonderful content but also some undesirable stuff. They have “guard rails” in place but they are capable of generating harmful content or exhibiting bias so review their output carefully!
 
-## Exercise: Get Started With AI tools
+In the following exercises, we will work in groups of about 4 - 5 people in breakout rooms for about 10 - 15 minutes. Once back in the main room, a spokesperson for each group will summarise their conclusions to the class.  In previous course, students preferred to give themselves 5 minutes or so to work individually before the group discussion commenced - check with your group if you want to do this. 
 
-To get started, sign in to your preferred AI tool (ChatGPT, Copilot, Clausde, Gemini or other).
+## Exercise 1 - start a converation about an everyday topic
 
-### Task 1
+To get started, sign in to your preferred AI tool (ChatGPT, Copilot, Claude, Gemini or other).
+
 Ask the AI tool a few questions and study its responses.  Consider:
 * was the response helpful?  
 * was the response what you expected?
@@ -27,21 +28,24 @@ Ask the AI tool a few questions and study its responses.  Consider:
 Here are a few ideas for prompts, but please use your own ideas also.
 * Explain a section 42 notice under the leasehold reform Housing & Development act of 1993.
 * Create a 5 step plan for the NHS to handle the next pandemic.
-* Explain to me like I am a five year old what the NHS does.
+* Explain to me like I am a five yeard old what the NHS does.
 * If 3x + 4 = 19, what is x?  Explain your reasoning
 * How do I switch off sharing to OneDrive folders?
 * Generate 10 geography questions suitable for a pub quiz.
 * Tell me briefly about the Alamo.
 * How can I turn off shopping and adverts in Microsoft Edge?
-* Please read the text in the attached image (_note: you will need to attach an image file - ensure that it includes nothing confidential)
+* Please read the text in the attached image (_note: you will need to attach an image file - ensure that it includes nothing confidential_)
 
-### Task 2
+## Exercise 2 - continue the conversation
+
 Continue the conversation and provide a follow up prompt, with more specific details and/or a clarification or extension of your original question.  Consider:
 * does this improve the AI tool's response?
-* how much does this feel like a natural conversation?  
-You  can continue to add further follow up prompts based on the latest response in an iterative manner.
+* how much does this feel like a natural conversation?
 
-### Task 3
+You can continue to write further follow up prompts based on the AI's latest response in an back and forth manner.
+
+## Exercise 3 - experiment with different styles 
+
 Try various styles of conversation and tasks.  For example, ask the AI tool to brainstorm, plan, explain, summarise and critique, and suggest solutions to problems. Here are some suggestions to get you started but please use your own ideas.
 
 **Brainstorm:**  
@@ -64,8 +68,8 @@ Copy an article from a public web page, for example a news article, then ask:
 =XLOOKUP(G18,$D$18:$D$21,$C18:$C$21)  
 
 **Explain:**  
-* Why is the sky blue?  
-* And the grass green?
+* Explain the organisational structure of the NHS in 3 paragraphs.
+* Why is the sky blue?  And the grass green?
 
 ## How to get better responses from AI tools
 
@@ -91,8 +95,6 @@ A basic instruction alone may not result in a good response.  Here are a few poi
 ### Exercise: Improve the AI tool responses
 
 In this exercise we gradually improve our prompts to improve the responses from the AI tool.  We start with a vague prompt and the AI tool replies in a good but not particularly helpful manner. We then use the RICE framework to improve our prompts and the AI tool responds with more useful suggestions.
-
-We will work in groups of about 4 - 5 people in breakout rooms.   Students may want to give themselves 10 minutes or so to experiment with the AI tool individually before coming together as a group. 
 
 In the instructions there are some example prompts, to plan a family summer holiday, but please use your own ideas. 
 
