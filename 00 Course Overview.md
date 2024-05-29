@@ -12,7 +12,7 @@ The course may include several specific use cases of using AI tools if attendees
 * to help us with Excel challenges;
 * to analyse data;
 * to help use write code in SQL;
-* to help use write code in Python (the de-facto open source langaugew for data science and AI) and
-* to help use write code in DAX (the modelling langauage of Power BI).
+* to help use write code in Python (the de-facto open source language for data science and AI) and
+* to help use write code in DAX (the modelling language of Power BI).
 
 The course finishes with a brief explanation of how Generative AI works "under the covers".
