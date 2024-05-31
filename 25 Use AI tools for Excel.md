@@ -9,7 +9,7 @@ People who use Excel regularly appreciate that there are often challenges buildi
 
 ## Exercise: Use an AI to help with Excel 
 
-This exercise uses an example of a spreadsheet (not supplied) that contains Excel tables and uses Excel functions such as XLOOKUP. The prompt below are provided as suggested starter ideas.  Feel free to change or adapt these to suiot your circumstances.  If you have your own spreadsheet, you may want to ask questions about the formulas in that.
+This exercise uses an example of a spreadsheet (not supplied) that contains Excel tables and uses Excel functions such as XLOOKUP. The prompt below are provided as suggested starter ideas.  Feel free to change or adapt these to suit your circumstances.  If you have your own spreadsheet, you may want to ask questions about the formulas in that.  If you would like to use an Excel spreadsheet in this exercise, here is a [sample Excel workbook](./Resources/Project%20Cash%20Flow.xlsx).
 
 _Initial Prompt:_
 Act as a helpful Excel expert.  Keep your answers brief unless I ask for more detail.

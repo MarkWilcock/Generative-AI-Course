@@ -28,13 +28,13 @@ Ask the AI tool a few questions and study its responses.  Consider:
 Here are a few ideas for prompts, but please use your own ideas also.
 * Explain a section 42 notice under the leasehold reform Housing & Development act of 1993.
 * Create a 5 step plan for the NHS to handle the next pandemic.
-* Explain to me like I am a five yeard old what the NHS does.
+* Explain to me like I am a five year old what the NHS does.
 * If 3x + 4 = 19, what is x?  Explain your reasoning
 * How do I switch off sharing to OneDrive folders?
 * Generate 10 geography questions suitable for a pub quiz.
 * Tell me briefly about the Alamo.
 * How can I turn off shopping and adverts in Microsoft Edge?
-* Please read the text in the attached image (_note: you will need to attach an image file - ensure that it includes nothing confidential_)
+* Please [read the text in | describe] the attached image. (_note: you will need to attach an image file - ensure that it includes nothing confidential_)
 
 ## Exercise 2 - continue the conversation
 
