@@ -63,6 +63,13 @@ Copy an article from a public web page, for example a news article, then ask:
 * The article discusses ... (e.g. rise of vaping in the UK and suggests it is a good thing).  Provide three arguments to support this conclusion and three argument against it.
 * Explain the main points of the article as if speaking to a 10 year old child.
 
+Examples 
+
+Please summarise the information in this webpage into two paragraphs https://en.wikipedia.org/wiki/Strictly_Come_Dancing_series_21
+
+[This PDF](./Resources/WITN01020100.pdf) contains a long legal document - the witness statement of the CEO of the Post Office to the Horizon IT Inquiry.  It is 861 pages long with over 1,880 sections.  Download this file to your PC, then upload to the AI with a prompt like this.  
+_Please summarise the information in this PDF into 10 paragraphs.  Give a title to each paragraph._
+
 **Understand what went wrong and suggest how to fix it.** 
 * This Excel formula produces incorrect results in some cells but is correct in others.  Can you explain why?  
 =XLOOKUP(G18,$D$18:$D$21,$C18:$C$21)  
