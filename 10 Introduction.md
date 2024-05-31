@@ -27,19 +27,15 @@ LLMs generate text from scratch, starting with a prompt. The prompt could
 - and perform lots of technical/software tasks: e.g. explain an Excel formula, write Python code.
  
 ## Multi model models
-Models can take in data and respond in several formats (text, audi, images, video).  Current examples:
-* text to text
+Models can take in data and respond in several formats (text, audi, images, video).  Current examples include:
 * text to image: such as Open AIs DALL-E, MidJourney
-* image to image
-* image to voice; e.g. OpenAI demos GPT 4o as able to understand facial expressions and respond with a voice  expression emotion
-* text to audio
 * audio to text e.g transcription in Microsoft Teams
-* Text to Video for example, https://openai.com/sora  or Google's Veo
+* text to video for example, https://openai.com/sora  or Google's Veo
 
-More and more AIs are becoming multi-modal.  For example, ChatGPT 4o transforms text to text, image to text (it can describe an image), text to image, and text to video.
+More and more AIs are becoming multi-modal.  For example, ChatGPT 4o transforms text to text, image to text (it can describe an image), text to image, and text to video.   OpenAI demos GPT 4o as able to understand facial expressions and respond with a voice  expressing emotion.
 
 ## Models vs Products
-We interact with a LLM through a user interface (UI) or an application.  The UI talks directly to the model.  The UI may provide certain helpful capabilities.  For example, the ChatGPT web user interface and app keep note of the previous prompts and responses in a conversation and resubmit those with the latest prompt so that the LLM always has the entire conversation history.
+We interact with a LLM through a user interface (UI) or an application.  The UI talks directly to the model.  The UI may provide certain helpful capabilities.  For example, the ChatGPT web user interface keeps note of the previous prompts and responses in a conversation and resubmits those with the latest prompt so that the LLM always has the entire conversation history.
 
 If needed, we can talk directly with the model, typically using a Python script.  For example, what do you think this Python snippet does?
 
