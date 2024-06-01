@@ -40,10 +40,9 @@ Here are some prompts we may use.
 
 1. This page https://digital-transformation.hee.nhs.uk/building-a-digital-workforce/phillips-ives-review and the pages that it links to, explain The Phillips Ives Nursing and Midwifery Review. Summarise the content of these pages in 5 short paragraphs.
 
-1. We need to recruit a data analyst to work our NHS hospital in central London.  Draft a job description that we can provide to recruitment agencies and the NHS Jobs website. The candidate must have experience of MSOffice and in particular Excel.  We seek a person who has at least 5 years of previous experience as a data analyst.  This can be in either the public or private sector environment.  Power BI and SQL skills would be a bonus. In particular, 10 years experience and a high level expertise of using the Gobbledegook MIS system, which is the main business intelligence system used in our trust, is a mandatory requirement.  
-
-Follow-on prompt: We are desperate to fill this post so revise the job description to make it as enticing as possible.
-Follow on prompt: Can you make this more formal while keeping the enticing tone
+1. We need to recruit a data analyst to work our NHS hospital in central London.  Draft a job description that we can provide to recruitment agencies and the NHS Jobs website. The candidate must have experience of MSOffice and in particular Excel.  We seek a person who has at least 5 years of previous experience as a data analyst.  This can be in either the public or private sector environment.  Power BI and SQL skills would be a bonus. In particular, 10 years experience and a high level expertise of using the Gobbledegook MIS system, which is the main business intelligence system used in our trust, is a mandatory requirement.   
+Follow-on prompt: We are desperate to fill this post so revise the job description to make it as enticing as possible.  
+Follow on prompt: Can you make this more formal while keeping the enticing tone.
 
 ## Group Exercise - Practice different styles of interaction with an AI toll
 
@@ -53,7 +52,7 @@ Agree a spoekesperson for the group who will summarise your conclusions to the c
 * is the response helpful and is it what you expected?
 * if the response was not what you expected or hoped for, why was that?  Can you ask a follow-on prompt (or edit the original prompt) to clarify and get a better response?
 * does the AI's response help you to be quicker or to produce a better outcome for a task?  Or both?  Or neither?
-* please let class know about any very interesting interaction
+* please let the class know about any very interesting interaction
 
 ### Brainstorm
 * Provide some suggestions for a surpise birthday party.  
