@@ -7,7 +7,7 @@ People who use Excel regularly appreciate that there are often challenges buildi
 * write Excel formulas; and 
 * diagnose why Excel cell contains an error value e.g., #N/A, #NAME?, #NULL!, and suggest how to fix the formula or problem that caused it.
 
-## Exercise: Use an AI to help with Excel 
+## Tutorial: Use an AI to help with Excel 
 
 This exercise uses an example of a spreadsheet (not supplied) that contains Excel tables and uses Excel functions such as XLOOKUP. The prompt below are provided as suggested starter ideas.  Feel free to change or adapt these to suit your circumstances.  If you have your own spreadsheet, you may want to ask questions about the formulas in that.  If you would like to use an Excel spreadsheet in this exercise, here are two  examples [Project Cash Flow](./Resources/Project%20Cash%20Flow.xlsx) and [Pizza Ingedients](./Resources/Pizza%20Ingredients.xlsx) .
 
@@ -29,7 +29,7 @@ Explain the Excel XLOOKUP function with a few examples.
 A follow-up question could be: Should I use the XLOOKUP or VLOOKUP function in my Excel spreadsheet?
 
 
-_Prompt: (to complete an Excel task, BMI matrix)_
+## Exercise: Use an AI to help with an Excel task (build a matrix of BMI values)
 
 In Excel, I want to create a grid matrix  of values of body mass index (BMI) for a set of weights (60, 70, 80 100 Kg) on the row headers and  heights (1.6,1.7, 1.8, 2.0 metres) on the column headers.  The BMI formula is weight / (height * height).  How do I do this?
 
@@ -43,4 +43,21 @@ My spreadsheet has three tables named Jan, Feb and Mar. All three  tables have t
 | 26/01/2024 | Bravo    | 20     |
 
 Write an Excel formula to stack the data in these three tables into a combined table.
+
+## Exercise: Use an AI to help with an Excel task (build a matrix of BMI values)
+
+In Excel I have a column of text containing the full name of several people, in the format last name, title. othernames
+for example:
+> Braund, Mr. Owen Harris
+> Cumings, Mrs. John Bradley (Florence Briggs Thayer)
+> Heikkinen, Miss. Laina
+
+I want to split these names up into three columns: lastname, title and other names.
+This is the result I want based on the examples
+
+|last name | title | other names                         |
+|--------------------------------------------------------|
+|Braund    | Mr    |Owen Harris                          |
+|Cumings   |Mrs    |John Bradley (Florence Briggs Thayer)|
+|Heikkinen |Miss   |Laina                                |
 

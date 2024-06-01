@@ -8,16 +8,13 @@ Generative AI tools are useful to us _today_. They can help us do some tasks bet
 * brainstorm ideas on a topic and
 * explain and summarise a document.
 
-Most commercial popular AI tools have both free and paid versions.  In this course, the free version is sufficient for most tasks. 
-
-In the exercises, you will use a AI tool to provide helpful answer to relevant tasks.  Before you start, note that AI tools have weaknesses as well as considerable strengths.  Here are the three points to bear in mind:
+AI tools have weaknesses as well as considerable strengths.  Here are the three points to bear in mind:
 1. AI tools can make mistakes. Always check any important results independently.
 2. AI tools remember and learn from every prompt. Never put any confidential information into AI tools. Keep your data private.
 3. AI tools have learnt from everything on the internet: all the amazing, wonderful content but also some undesirable stuff. They have “guard rails” in place but they are capable of generating harmful content or exhibiting bias so review their output carefully!
 
-In the following exercises, we will work in groups of about 4 - 5 people in breakout rooms for about 10 - 15 minutes. Once back in the main room, a spokesperson for each group will summarise their conclusions to the class.  In previous course, students preferred to give themselves 5 minutes or so to work individually before the group discussion commenced - check with your group if you want to do this. 
 
-## Exercise 1 - start a converation about an everyday topic
+## Class Toturrial - start a conversation with an AI about an everyday topic or task at work.
 
 To get started, sign in to your preferred AI tool (ChatGPT, Copilot, Claude, Gemini or other).
 
@@ -26,15 +23,13 @@ Ask the AI tool a few questions and study its responses.  Consider:
 * was the response what you expected?
 
 Here are a few ideas for prompts, but please use your own ideas also.
-* Explain a section 42 notice under the leasehold reform Housing & Development act of 1993.
-* Create a 5 step plan for the NHS to handle the next pandemic.
-* Explain to me like I am a five year old what the NHS does.
-* If 3x + 4 = 19, what is x?  Explain your reasoning
-* How do I switch off sharing to OneDrive folders?
-* Generate 10 geography questions suitable for a pub quiz.
-* Tell me briefly about the Alamo.
-* How can I turn off shopping and adverts in Microsoft Edge?
-* Please [read the text in | describe] the attached image. (_note: you will need to attach an image file - ensure that it includes nothing confidential_)
+1. Create a 5 step plan for the NHS to handle the next pandemic.
+1. Explain to me like I am a five year old what the NHS does.
+1. Explain a section 42 notice under the leasehold reform Housing & Development act of 1993.
+1. If 3x + 4 = 19, what is x?  Explain your reasoning
+1. Generate 10 geography questions suitable for a pub quiz.
+1. How can I turn off shopping and adverts in Microsoft Edge?
+1. Please [read the text in | describe] the attached image. (_note: you will need to attach an image file - ensure that it includes nothing confidential_)
 
 ## Exercise 2 - continue the conversation
 

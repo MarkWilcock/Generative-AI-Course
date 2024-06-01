@@ -35,6 +35,12 @@ Examples of code assistants include:
 * Copilot in Microsoft Fabric Python notebooks;
 * (In beta currently), an assistant in Google Colab Python notebooks.
 
+## Tutorial Analyse NHS England Outpatient Activity
+
+We will use an AI tool to analyse the number of outpatient appointments in England over the past several years by outcome (attended, did not attend etc). The data is in a CSV file -download from [here](./Resources/NHS%20HES%20Outpatient%20Appointments%20England%20By%20Year%20And%20Type.csv) and have a look at it.  The original source data is from NHS Digital [here](https://digital.nhs.uk/data-and-information/publications/statistical/hospital-outpatient-activity/2022-23).
+
+to do
+
 ## Exercise: Analyse a dataset
 
 Use an AI tool to provide insights into a dataset.  Choose one of the following datasets below or any other public data that you prefer.
