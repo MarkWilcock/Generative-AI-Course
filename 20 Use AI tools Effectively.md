@@ -14,51 +14,57 @@ AI tools have weaknesses as well as considerable strengths.  Here are the three 
 3. AI tools have learnt from everything on the internet: all the amazing, wonderful content but also some undesirable stuff. They have “guard rails” in place but they are capable of generating harmful content or exhibiting bias so review their output carefully!
 
 
-## Class Toturrial - start a conversation with an AI about an everyday topic or task at work.
+## Tutorial - start a conversation with an AI about an everyday topic or task at work.
 
-To get started, sign in to your preferred AI tool (ChatGPT, Copilot, Claude, Gemini or other).
 
-Ask the AI tool a few questions and study its responses.  Consider:
+We will provide a prompt to an AI tool and study its responses.  Consider:
 * was the response helpful?  
 * was the response what you expected?
 
-Here are a few ideas for prompts, but please use your own ideas also.
+After the first prompt, you we want to provide a follow up prompt, with more specific details and/or a clarification or extension of our original question.  Consider:
+* does this improve the AI tool's response?
+* how much does this feel like a natural conversation?
+
+Here are some prompts we may use.
 1. Create a 5 step plan for the NHS to handle the next pandemic.
 1. Explain to me like I am a five year old what the NHS does.
 1. Explain a section 42 notice under the leasehold reform Housing & Development act of 1993.
 1. If 3x + 4 = 19, what is x?  Explain your reasoning
 1. Generate 10 geography questions suitable for a pub quiz.
 1. How can I turn off shopping and adverts in Microsoft Edge?
-1. Please [read the text in | describe] the attached image. (_note: you will need to attach an image file - ensure that it includes nothing confidential_)
+1. Download [this image](./Resources/NHS_Staff_Nurses_Doctors_Group.webp) to your computer. The image comes from [this page](https://www.nhsemployers.org/news/latest-nhs-workforce-and-vacancy-statistics) on the NHS Employers website.  Upload to the AI tool and then prompt the AI to describe the attached image.
 
-## Exercise 2 - continue the conversation
+1. Download [this image](./Resources/NHS%20ART.jpg.webp) to your computer. The image comes from [this page](https://ifs.org.uk/articles/state-nhs) on the Institute for Fiscal Studies (IFS) website.  This is a more complex image: more people, police and healthcase workers, engaged in an protest / demonstration activity and a city background. Upload to the AI tool and then prompt the AI to describe the attached image.  See if the AI reads the messages on the banners.  If not, prompt it to do so.
 
-Continue the conversation and provide a follow up prompt, with more specific details and/or a clarification or extension of your original question.  Consider:
-* does this improve the AI tool's response?
-* how much does this feel like a natural conversation?
 
-You can continue to write further follow up prompts based on the AI's latest response in an back and forth manner.
 
-## Exercise 3 - experiment with different styles 
+## Group Exercise - Practice different styles of interaction with an AI toll
 
-Try various styles of conversation and tasks.  For example, ask the AI tool to brainstorm, plan, explain, summarise and critique, and suggest solutions to problems. Here are some suggestions to get you started but please use your own ideas.
+In this exerciuse, groups try various styles of interaction with an AI.  For example, ask the AI tool to brainstorm, plan, explain, summarise and critique, and suggest solutions to problems. Here are some suggestions to get you started but please use your own ideas also.
 
-**Brainstorm:**  
+Agree a spoekesperson for the group who will summarise your conclusions to the class.  Consider
+* is the response helpful and is it what you expected?
+* if the response was not what you expected or hoped for, why was that?  Can you ask a follow-on prompt (or edit the original prompt) to clarify and get a better response?
+* does the AI's response help you to be quicker or to produce a better outcome for a task?  Or both?  Or neither?
+* please let class know about any very interesting interaction
+
+
+### Brainstorm
 * Provide some suggestions for a surpise birthday party.  
 * I am writing a spy novel. Suggest some titles that will make it fly off the bookshelves. 
 
-**Plan:**  
+### Plan
 * How do I make the perfect omelette?  Provide a step by step instructions.
 * I am planning a trip to Paris in the spring.  Could you suggest 10 top tourist sights?
 
-**Summarise and critique/ review:**  
-Copy an article from a public web page, for example a news article, then ask:  
+### Summarise and critique/ review
+Download a document from a public web page and then prompt the AI to summarise and review the document.  Example prompts are:
 * Please summarise in fewer than 300 words
 * How could this article be improved to make more clear and compelling?
 * The article discusses ... (e.g. rise of vaping in the UK and suggests it is a good thing).  Provide three arguments to support this conclusion and three argument against it.
 * Explain the main points of the article as if speaking to a 10 year old child.
 
-Examples 
+_Examples_
 
 Please summarise the information about the recent BBC Strictly series in this webpage into two paragraphs https://en.wikipedia.org/wiki/Strictly_Come_Dancing_series_21
 
@@ -68,11 +74,11 @@ _Please summarise the information in this PDF into 10 paragraphs.  Give a title 
 This prompt asks the AI to search several related webpages, a pages specified in the URL and the linked web pages.  
 _Read this page https://www.nhs.uk/better-health/ and the pages that it links to, and summarise NHS advice for better health in 5 short paragraphs._
 
-**Understand what went wrong and suggest how to fix it.** 
+### Understand what went wrong and suggest how to fix it.
 * This Excel formula produces incorrect results in some cells but is correct in others.  Can you explain why?  
 =XLOOKUP(G18,$D$18:$D$21,$C18:$C$21)  
 
-**Explain:**  
+### Explain
 * Explain the organisational structure of the NHS in 3 paragraphs.
 * Why is the sky blue?  And the grass green?
 
