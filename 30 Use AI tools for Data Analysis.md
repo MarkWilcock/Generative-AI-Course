@@ -37,7 +37,7 @@ In both cases, add follow-on questions, for example:
 
 # Tutorial - Analyse NHS England Outpatient Activity
 
-We will use an AI tool to analyse the number of outpatient appointments in England over the past several years by outcome (attended, did not attend etc). The data is in a CSV file -download from [here](./Resources/NHS%20HES%20Outpatient%20Appointments%20England%20By%20Year%20And%20Type.csv) and have a look at it.  The original source data is from NHS Digital [here](https://digital.nhs.uk/data-and-information/publications/statistical/hospital-outpatient-activity/2022-23).
+We will use an AI tool to analyse the number of outpatient appointments in England over the past several years by outcome (attended, did not attend etc). The data is in a CSV file - download from [here](./Resources/NHS%20HES%20Outpatient%20Appointments%20England%20By%20Year%20And%20Type.csv) and have a look at it.  The original source data is from NHS Digital [here](https://digital.nhs.uk/data-and-information/publications/statistical/hospital-outpatient-activity/2022-23).
 
 Suggested Prompts
 * Describe the attached dataset _(Don't forget to attach the file)_

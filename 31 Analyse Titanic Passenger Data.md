@@ -11,7 +11,7 @@ This dataset contains a list of 891 of the passengers on board including variabl
 Here are some suggested prompts to start your analysis.  The first prompt describes of the columns – this is useful as the variable names are difficult to understand
 
 *Initial Prompt*
-Acts as an data analyst.  The attached data has a partial list of passengers on the Titanic.  Here is a description of the columns:
+Act as an data analyst.  The attached data has a partial list of passengers on the Titanic.  Here is a description of the columns:
 * `PassengerId`
 * `Survived`, 0 = Died, 1 = Survived
 * `Pclass`, Passenger Class
@@ -27,7 +27,8 @@ Acts as an data analyst.  The attached data has a partial list of passengers on 
 
 *Subsequent prompts*
 1. Describe the data
-1. Are there any data quality issues in the data
+1. Are there any data quality issues in the data?
 1. How many passengers were in each passenger class?
 1. What percentage of passengers survived?
 1. What factors made it more likely that a passenger would survive?
+1. Can you provide the results of your analysis in a few charts.

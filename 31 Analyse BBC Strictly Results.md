@@ -1,4 +1,4 @@
-# Exercise - Analyse BBC Strictly Week 1 Results
+# Exercise - Analyse BBC Strictly Results
 
 The objective of this exercise is to analyse the data from the first week of the BBC Strictly competition.  The data is in the "Week 1" table on [this Wikipedia web page](https://en.wikipedia.org/wiki/Strictly_Come_Dancing_series_21)
 
@@ -12,8 +12,14 @@ The data is provided by Wikipedia. The original results data for the latest seri
 •	Scores – these are provided in a single column in the format : Total Score (Craig, Motsi, Shirley, Anton) e.g. 30 (6,7,8,9)
 •	Music (artist and song)
 
-*Optional Advanced Exercise 1*
-Add in data from week 2 (which also contains a Result column)
+Here are some suggested prompts to start your analysis.
+
+* Act as a data analyst.  Analyse the data in the Week 1 table of this web page https://en.wikipedia.org/wiki/Strictly_Come_Dancing_series_21 
+* What was the total score given by each judge?
+* Who is the meanest judge?
+* Combine with the data in the Week 2 and Week 3 tables and describe the combined dataset.
+* The tables from Week 2 onwards also show the result e.g, whether the couple was safe, in the bottom two or eliminated.  (In week 1 there was no elimination.)  Is it always the couple with the lowest score that is eliminated? _(note: in my practice run, the AI tool made mistakes so please check its answers carefully)_
+
 
 *Optional Advanced Exercise 2*
 Analyse the full results from the Autumn 2023 series from an Excel dataset containing several Excel tables.  Download from  [here](<https://zomalextrainingstorage.blob.core.windows.net/datasets/misc/Strictly Data.xlsx>)
