@@ -14,13 +14,20 @@ This exercise uses an example of a spreadsheet (not supplied) that contains Exce
 _Initial Prompt:_
 Act as a helpful Excel expert.  Keep your answers brief unless I ask for more detail.
 
+_Example prompts (to write a formula):_
+Write an Excel formula to 
+* add up values in cells C2 to C100.
+* add up values in cells C2 to C100 when the corresponding value in the B column is "Alpha"
+* to lookup the price of a banana in an Excel table named ShoppingList with columns Item and Price
+* to extract all the text before the space character in a cell value
+* give a list of unique items in the ShoppingList table
+
 _Prompt (to explain a formula):_
 Please explain what this formula does  
 =XLOOKUP($G26, ItemsFinal[Fruit], ItemsFinal[Price])
 
 _Prompt (to explain why a cell is showing an Excel error):_
 =XLOOKUP($G28, ItemsFinal[Fruit], ItemsFinal[Price]) is a #N/A error.  Please explain why this error occurred and how to fix it.
-
 
 _Prompt (a teaching example on some aspect of Excel):_
 
