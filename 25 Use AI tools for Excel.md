@@ -9,7 +9,7 @@ People who use Excel regularly appreciate that there are often challenges buildi
 
 ## Tutorial: Use an AI to help with Excel 
 
-This exercise uses an example of a spreadsheet (not supplied) that contains Excel tables and uses Excel functions such as XLOOKUP. The prompt below are provided as suggested starter ideas.  Feel free to change or adapt these to suit your circumstances.  If you have your own spreadsheet, you may want to ask questions about the formulas in that.  If you would like to use an Excel spreadsheet in this exercise, here are two  examples [Project Cash Flow](./Resources/Project%20Cash%20Flow.xlsx) and [Pizza Ingedients](./Resources/Pizza%20Ingredients.xlsx) .
+This exercise uses an example of a spreadsheet (not supplied) that contains Excel tables and uses Excel functions such as XLOOKUP. The prompt below are provided as suggested starter ideas.  Feel free to change or adapt these to suit your circumstances.  If you have your own spreadsheet, you may want to ask questions about the formulas in that.  
 
 _Initial Prompt:_
 Act as a helpful Excel expert.  Keep your answers brief unless I ask for more detail.
@@ -28,8 +28,31 @@ Explain the Excel XLOOKUP function with a few examples.
 
 A follow-up question could be: Should I use the XLOOKUP or VLOOKUP function in my Excel spreadsheet?
 
+## Tutorial: Use an AI to help summarise data in an Excel sheet
 
-## Exercise: Use an AI to help with an Excel task (build a matrix of BMI values)
+The [PatientStay spreadsheet](./Resources/PatientStay.xlsx) contains fictitious data about 44 patient hospital stays.  The data spans 4 London hospitals and 5 wards.  Patients are admitted for a few days in February and March 2024.  The columns are:
+* PatientId
+* AdmittedDate
+* DischargeDate
+* Hospital
+* Ward
+* Tariff
+* Ethnicity
+
+We would like help in writing formulas to summarise the data, for example:
+* number of patients admitted to each hospital (and later the total tariff by hospital)
+* number of patients admitted on each date
+* the length of stay (in days) of each patient
+
+Here are some suggested prompts to start your analysis.
+* Act as an Excel expert.  The attached spreadsheet has data on patients stays in hospital.  Import the file and describe the data.
+* How would I construct Excel formulas to find the number of patients admitted to each hospital
+* Can you write and export this spreadsheet with these formulas
+* Can you repeat that but use the UNIQUE function to generate the list of hospitals.
+* Write a formula to calculate the length of stay for each patient.
+* Is DATEDIF an Excel function?
+
+## Tutorial: Use an AI to help with an Excel task (build a matrix of BMI values)
 
 In Excel, I want to create a grid matrix  of values of body mass index (BMI) for a set of weights (60, 70, 80 100 Kg) on the row headers and  heights (1.6,1.7, 1.8, 2.0 metres) on the column headers.  The BMI formula is weight / (height * height).  How do I do this?
 
