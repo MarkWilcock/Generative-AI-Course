@@ -21,24 +21,6 @@ Some specific current examples of data analysis capabilities are:
 * ChatGPT 4 can receive both text and images about data
 * the ChatGPT Data Analyst plugin will read data files
 
-
-## Tutorial Analyse NHS England Outpatient Activity
-
-We will use an AI tool to analyse the number of outpatient appointments in England over the past several years by outcome (attended, did not attend etc). The data is in a CSV file -download from [here](./Resources/NHS%20HES%20Outpatient%20Appointments%20England%20By%20Year%20And%20Type.csv) and have a look at it.  The original source data is from NHS Digital [here](https://digital.nhs.uk/data-and-information/publications/statistical/hospital-outpatient-activity/2022-23).
-
-to do
-
-## Exercise: Analyse a dataset
-
-Use an AI tool to provide insights into a dataset.  Choose one of the following datasets below or any other public data that you prefer.
-
-* [Titanic Passengers](<https://zomalextrainingstorage.blob.core.windows.net/datasets/misc/Titanic Data.xlsx>)
-* A list of 32 American supercars from the 1970's [MT Cars](https://zomalextrainingstorage.blob.core.windows.net/datasets/misc/mtcars.xlsx)
-* [Bank Churn Data](https://zomalextrainingstorage.blob.core.windows.net/datasets/misc/Churn.csv)
-* [Airports in Europe](https://zomalextrainingstorage.blob.core.windows.net/datasets/Airports/eu-airports.csv)
-* Results from BBC's Saturday evening dancing competition in Autum 2023 [Strictly](<https://zomalextrainingstorage.blob.core.windows.net/datasets/misc/Strictly Data.xlsx>)
-
-
 Some AI tools have capabilities to import a dataset e.g. ChatGPT Data Analyst.  If your tool can import the dataset, 
 * ask the AI to provide insights, charts, and 
 * _possibly_ show the Python code to create those charts.
@@ -51,3 +33,24 @@ If your AI tool  cannot  import the dataset, describe the data structure (a one 
 In both cases, add follow-on questions, for example:
 * how would we add a new column that combines X and Y?
 * summarise the data: sum column X and group by column Y
+
+
+# Tutorial - Analyse NHS England Outpatient Activity
+
+We will use an AI tool to analyse the number of outpatient appointments in England over the past several years by outcome (attended, did not attend etc). The data is in a CSV file -download from [here](./Resources/NHS%20HES%20Outpatient%20Appointments%20England%20By%20Year%20And%20Type.csv) and have a look at it.  The original source data is from NHS Digital [here](https://digital.nhs.uk/data-and-information/publications/statistical/hospital-outpatient-activity/2022-23).
+
+Suggested Prompts
+* Describe the attached dataset _(Don't forget to attach the file)_
+* Show attendance trends over the years.
+* What is the trend in the percentage of cancellations?
+* Calculate the percentage of cancellations as the 'Patient Calculations' column divided by the year total.  Please revise the calculation and chart.
+* Why did this dip in the 202-21 year?
+* Are there any other insights available from the data?
+
+<!--
+## Exercise - Analyse Airports in Europe
+
+[Airports in Europe](https://zomalextrainingstorage.blob.core.windows.net/datasets/Airports/eu-airports.csv)
+
+-->
+
