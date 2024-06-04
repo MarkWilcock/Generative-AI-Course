@@ -9,7 +9,7 @@ Generative AI tools are useful to us _today_. They can help us do some tasks bet
 * explain and summarise a document.
 
 AI tools have weaknesses as well as considerable strengths.  Here are the three points to bear in mind:
-1. AI tools can make mistakes. Always check any important results independently.
+1. AI tools can make mistakes. And when they do lie to us, they do it very convincingly and confidently. Always check any important results independently.
 2. AI tools remember and learn from every prompt. Never put any confidential information into AI tools. Keep your data private.
 3. AI tools have learnt from everything on the internet: all the amazing, wonderful content but also some undesirable stuff. They have “guard rails” in place but they are capable of generating harmful content or exhibiting bias so review their output carefully!
 
@@ -41,14 +41,14 @@ Here are some prompts we may use.
 1. This page https://digital-transformation.hee.nhs.uk/building-a-digital-workforce/phillips-ives-review and the pages that it links to, explain The Phillips Ives Nursing and Midwifery Review. Summarise the content of these pages in 5 short paragraphs.
 
 1. We need to recruit a data analyst to work our NHS hospital in central London.  Draft a job description that we can provide to recruitment agencies and the NHS Jobs website. The candidate must have experience of MSOffice and in particular Excel.  We seek a person who has at least 5 years of previous experience as a data analyst.  This can be in either the public or private sector environment.  Power BI and SQL skills would be a bonus. In particular, 10 years experience and a high level expertise of using the Gobbledegook MIS system, which is the main business intelligence system used in our trust, is a mandatory requirement.   
-Follow-on prompt: We are desperate to fill this post so revise the job description to make it as enticing as possible.  
-Follow on prompt: Can you make this more formal while keeping the enticing tone.
+_Follow-on prompt:_ We are desperate to fill this post so revise the job description to make it as enticing as possible.  
+_Follow on prompt:_ Can you make this more formal while keeping the enticing tone.
 
 ## Group Exercise - Practice different styles of interaction with an AI toll
 
 In this exercise, groups try various styles of interaction with an AI.  For example, ask the AI tool to brainstorm, plan, explain, summarise and critique, and suggest solutions to problems. Try at least one suggestion from each  section below.  These are some suggestions to get you started but please use your own ideas also.
 
-Agree a spoekesperson for the group who will summarise your conclusions to the class.  Consider
+Agree a chairperson who will summarise the group's conclusions to the class.  Consider
 * is the response helpful and is it what you expected?
 * if the response was not what you expected or hoped for, why was that?  Can you ask a follow-on prompt (or edit the original prompt) to clarify and get a better response?
 * does the AI's response help you to be quicker or to produce a better outcome for a task?  Or both?  Or neither?
@@ -142,3 +142,9 @@ Instructions: Suggest 5 ideas for good summer holiday for a family from London.
 Constraints / Context:  Here is some more information about us. We live in London but would like to holiday abroad. We like exploring cities but also want to get out of the city to walk in beautiful countryside. We are interested in football stadiums, so we would consider visiting cities that are home to a prominent football team. We don't want to fly to go on holiday.  We are happy to take the train or do a cruise.   Please revise your suggestions.
 
 Here is an example of the type of response I need. Milan is a lovely city for families on holiday.  It has many attractions e.g. the Duomo, Michaelangelo's Last Supper.  There are beautiful tourist locations near to the city. for example, Bergamo is a historic hilltop town only a short train journey from Milan.  The famous San Siro football stadium, used by both AC Milan and Inter Milan, is situated on the outskirts of the city.  Milan can be reached by train from London with an overnight stop in Paris.   Please revise your suggestions to respond in this style.
+
+## Knowledge Check
+What is the difference between an AI tool and the BBC Radio 4 show 'The Unbelievable Truth'?
+1. They are both hosted by David Mitchell.
+1. AI tools may hide a few lies in a a largely truthful response whereas the show hides a few truths in a sea of lies.
+1. This is a stupid question: we cannot compare an AI tool with a radio show.
