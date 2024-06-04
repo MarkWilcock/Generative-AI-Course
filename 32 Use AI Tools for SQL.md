@@ -4,7 +4,7 @@ We can use AI tools to write SQL statements. We  provide a description of the ta
 
 ## Exercise 1: Analyse the 'Patient Stay' dataset
 
-Download the (fictitious) dataset for this example from [here](https://zomalextrainingstorage.blob.core.windows.net/datasets/misc/PatientStay.csv). Have a look at the data and form your own opinions about how you would analyse it. Then start a new conversation with your LLM  using the prompts below as a starter.
+Download the (fictitious) dataset for this example from [here](./Resources/PatientStay.csv). Have a look at the data and form your own opinions about how you would analyse it. Then start a new conversation with your LLM  using the prompts below as a starter.
 
 _Prompt 1:_ Act as a helpful SQL expert. The `PatientStay` table represents patients admitted to a ward in a hospital. Each row in the table represents a patient admission.  The dataset contains the following columns.
 
