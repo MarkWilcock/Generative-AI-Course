@@ -18,9 +18,12 @@ _Prompt 1:_ Act as a helpful SQL expert. The `PatientStay` table represents pati
 
 _Prompt 2:_ Suggest some data analysis questions that could be answered with this dataset.
 
-_Prompt 3:_ Write a SQL statement to list the patients that were admitted to either "Guy's Hospital" or "St Georges".
+_Prompt 3:_ Write a SQL statement to list the patients that were admitted to either Kingston or PRUH hospitals.
 
-_Prompt 4:_ Write a SQL statement to list the patients that were admitted between two dates.
+_Prompt 4:_ Write a SQL statement to list the patients that were admitted between the 1st and 3rd March 2024.
+
+_Prompt 5:_ Write a SQL statement to list the patients that stayed for more than 3 days and had a tariif of more than 5.
+
 
 
 ## Exercise 2: Analyse  the PricePaid dataset
