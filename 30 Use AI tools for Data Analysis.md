@@ -4,8 +4,9 @@ AI tools can help us explore, understand and visualise a dataset. We often will 
 
 For best results, we provide information about the data in an initial scene-setting prompt.  We can do this in a few ways:
 * as an image of the structure of the table(s): column names and possibly data types.  This could be a snapshot of the model view of a Power BI data model, or an entity relation diagram of a database, 
-* as text: a list of tables and for each table, a list of the columns, or
-* as data: for example, tabular data in CSV or Excel files
+* as a description of the stucture: the table name(s) and a list of column names.  If we want to be thorough, we can also include the  descriptions of each column (data type, whethere nullable, the set of valid values if appropriate), but this usually is not necessary.
+* with some AI tools we can upload the data file - it is often better if this is a CSV rather than an Excel file.
+* if we can't upload the data file, copy and paste the data, or at least the column headers and a few represenantive rows into the prompt.
 
 The AI can then
 * provide a summary of the data and pattern e.g. identify as a star-schema arrangement of tables and label each table as a fact or dimension table,
