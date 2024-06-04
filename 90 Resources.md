@@ -2,6 +2,17 @@
 
 Here are some resources for learning more about Generative AI.
 
+# Shared ChatGPT converations based on example in the course
+
+These shared chats have the prompts and responses of a converstioan with ChatGPT.  These are based on some of teh exercises and tutorials in the course.
+
+* PatientStay dataset analysis https://chatgpt.com/share/95a2ae74-8a16-4eb6-9715-3a647dd03366
+* Supercar data analysis https://chatgpt.com/share/2736778c-53d4-467d-b70d-92c06ea81ae9
+* Titanic Passenger Data Analysis https://chatgpt.com/share/0cb52252-f910-415f-9115-87b29dc4c9b0 
+* BBC Strictly Results Analysis https://chatgpt.com/share/9365bb06-b5c7-4b34-8d71-ab10161bb5cb 
+* Price Paid (Land Registry data) Analysis https://chatgpt.com/share/0e708f2e-4ce9-4727-bd37-c02f818c6856 
+
+
 ##  Overviews of Generative AI
 
 Microsoft have a great course [Introduction to Gen AI](https://github.com/microsoft/generative-ai-for-beginners).  This comes highly recommended.
@@ -33,3 +44,6 @@ The Economist, March 2024, The way in which firms are starting to use generative
 
 If you plan to experiment with data analysis using LLMs here are a couple of  good public datasets
 * an [electric vehicle population dataset from Kaggle](https://www.kaggle.com/datasets/ratikkakkar/electric-vehicle-population-data).
+
+
+
