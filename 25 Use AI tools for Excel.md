@@ -86,7 +86,7 @@ I want to split these names up into three columns: lastname, title and other nam
 This is the result I want based on the examples
 
 |last name | title | other names                         |
-|--------------------------------------------------------|
+|----------|-------|-------------------------------------|
 |Braund    | Mr    |Owen Harris                          |
 |Cumings   |Mrs    |John Bradley (Florence Briggs Thayer)|
 |Heikkinen |Miss   |Laina                                |

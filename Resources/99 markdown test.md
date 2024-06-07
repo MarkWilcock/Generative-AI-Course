@@ -64,3 +64,11 @@ Image 1 ![ChatGPT UX][def1]
 private comment before
 <!-- some private stuff here -->
 private comment after
+
+table
+
+| Date       | Category | Amount |
+|------------|----------|--------|
+| 13/01/2024 | Alpha    | 10     |
+| 26/01/2024 | Bravo    | 20     |
+
