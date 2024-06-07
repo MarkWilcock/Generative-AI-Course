@@ -76,11 +76,12 @@ Write an Excel formula to stack the data in these three tables into a combined t
 
 ## Exercise: Use an AI to help with an Excel task (build a matrix of BMI values)
 
-In Excel I have a column of text containing the full name of several people, in the format last name, title. othernames
+In Excel I have a column of text containing the full name of several people, in the format  
+ _last name, title. othernames_  
 for example:
-> Braund, Mr. Owen Harris
-> Cumings, Mrs. John Bradley (Florence Briggs Thayer)
-> Heikkinen, Miss. Laina
+> Braund, Mr. Owen Harris  
+> Cumings, Mrs. John Bradley (Florence Briggs Thayer)  
+> Heikkinen, Miss. Laina  
 
 I want to split these names up into three columns: lastname, title and other names.
 This is the result I want based on the examples
