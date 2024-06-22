@@ -1,4 +1,4 @@
-# Use AI tools to help with Excel Challenges
+# Use AI tools to help with Excel challenges
 
 People who use Excel regularly appreciate that there are often challenges building Excel spreadsheets.  AI tools can help us become more productive with Excel in several ways. These include:
 * get advice on how to perform an Excel task.  We can describe a problem in English to the AI tool and it will write the formulas required and explain how to apply (and possibly build an example spreadsheet);
@@ -7,7 +7,7 @@ People who use Excel regularly appreciate that there are often challenges buildi
 * write Excel formulas; and 
 * diagnose why Excel cell contains an error value e.g., #N/A, #NAME?, #NULL!, and suggest how to fix the formula or problem that caused it.
 
-## Tutorial: Use an AI to help with Excel 
+## Example: Use an AI to help with general Excel questions
 
 This exercise uses an example of a spreadsheet (not supplied) that contains Excel tables and uses Excel functions such as XLOOKUP. The prompt below are provided as suggested starter ideas.  Feel free to change or adapt these to suit your circumstances.  If you have your own spreadsheet, you may want to ask questions about the formulas in that.  
 
@@ -34,29 +34,11 @@ Explain the Excel XLOOKUP function with a few examples.
 
 A follow-up question could be: Should I use the XLOOKUP or VLOOKUP function in my Excel spreadsheet?
 
-## PatientStay Tutorial: Use an AI to help analyse and summarise data in an Excel sheet
-
-The [PatientStay spreadsheet](./Resources/PatientStay.xlsx) contains fictitious data about 44 patient hospital stays.  
-
-Start with this initial prompt:  
-Act as an Excel expert. Be brief with your responses.
-
-If your AI Tool can import a data file, use this prompt.  
-The attached spreadsheet has data on patients stays in hospital.  Import the file and describe the data.
-
-If your AI Tool can't import a data file, use this prompt.  
-An Excel spreadsheet contains data about patient stays in hospital. The columns are PatientId, AdmittedDate, DischargeDate, Hospital, Ward, Tariff and Ethnicity.
-
-Here are some suggested prompts to start your analysis.
-* Write formulas to show how many patients are admitted to each hospital.
-* Write a formula to calculate the length of stay for each patient.
-* Export this spreadsheet with these formulas
-
-## BMI Exercise: Use an AI to build a matrix of BMI values
+## Example: Use an AI to build a matrix of BMI values in Excel
 
 In Excel, I want to create a matrix  of values of body mass index (BMI) for a set of weights (60, 70, 80 100 Kg) on the row headers and  heights (1.6,1.7, 1.8, 2.0 metres) on the column headers.  The BMI formula is weight / (height * height).  How do I do this?
 
-## Stack Exercise: Use an AI to stack data
+## Example: Use an AI to stack data in Excel
 
 My spreadsheet has three tables named Jan, Feb and Mar. All three  tables have the same structure as in the example below.
 
@@ -67,7 +49,7 @@ My spreadsheet has three tables named Jan, Feb and Mar. All three  tables have t
 
 Write an Excel formula to stack the data in these three tables into a combined table.
 
-## Text Split Exercise: Use an AI to help split a long text into parts
+## Example: Use an AI to help split a long text into parts in Excel
 
 In Excel I have a column of text containing the full name of several people, in the format  
  _last name, title. othernames_  
