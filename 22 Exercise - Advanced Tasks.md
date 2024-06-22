@@ -24,7 +24,7 @@ Act as a morose, unhappy, pessimistic,and sarcastic football expert _(other spor
 Explain ... to me as if I am a | 10 year old child | 10 year old child | professor of...
 
 # Imagers
-AI tools can understand and interpret images
+AI tools can understand and interpret images.
 
 ### Tasks
 * Download [this image](./Resources/NHS_Staff_Nurses_Doctors_Group.webp) to your computer. The image comes from [this page](https://www.nhsemployers.org/news/latest-nhs-workforce-and-vacancy-statistics) on the NHS Employers website.  Upload to the AI tool and then prompt the AI to describe the attached image.
@@ -32,7 +32,7 @@ AI tools can understand and interpret images
 * Download [this image](./Resources/NHS%20ART.jpg.webp) to your computer. The image comes from [this page](https://ifs.org.uk/articles/state-nhs) on the Institute for Fiscal Studies (IFS) website.  This is a more complex image: more people, police and healthcase workers, engaged in an protest / demonstration activity and a city background. Upload to the AI tool and then prompt the AI to describe the attached image.  See if the AI reads the messages on the banners.  If not, prompt it to do so.
 
 ## Retrievers
-Organisations would like the AI tool to provide responses based on theiir own indetrenal documents or data rather thanonformation culled from external sources.
+Organisations would like the AI tool to provide responses based on their own internal documents or data rather than on general information culled from external sources.
 
 In the starter tasks, we provided some smallish documents to the AI tools and asked it to summarise these.  This task extends that to much larger documents.  Often a techinque known as Retrieval Augmented Generation (RAG) is used.
 
@@ -54,7 +54,7 @@ Download a document from a public web page and then prompt the AI to summarise a
 
 ## Customisers
 
-Customisers adapt the AI tool so it provides more relevant responses based on the organisations needs.
+Customisers adapt the AI tool so it provides more relevant responses based on the organisation's needs.
 
 ### Tasks
 Customise the AI in some way :
