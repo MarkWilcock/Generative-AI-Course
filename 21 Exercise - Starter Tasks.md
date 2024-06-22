@@ -1,29 +1,34 @@
 # Use AI tools Effectively - Starter Tasks Exercise 
 
-In this exercise, We will split the class into four teams.  Each team focusses an a different type of activity. Teams try various styles of interaction with an AI.  For example, they will ask the AI tool to brainstorm, plan, explain, summarise and critique, and suggest solutions to problems. 
+In this exercise, the class is split into four teams.  Each team focuses an a different type of activity. Teams try various styles of interaction with an AI.  For example, they will ask the AI tool to brainstorm, plan, explain, summarise and critique, and suggest solutions to problems. 
 
 ## Instructions
-Agree a chairperson who will summarise the group's conclusions to the class.  Consider
+
+Experiments with the various AI tools. These are some suggestions to get you started but please use your own ideas also.  Consider:
 * is the response helpful and is it what you expected?
 * if the response was not what you expected or hoped for, why was that?  Can you ask a follow-on prompt (or edit the original prompt) to clarify and get a better response?
 * does the AI's response help you to be quicker or to produce a better outcome for a task?  Or both?  Or neither?
 * please let the class know about any very interesting interaction
 * what data sources did the AI use to formulate the response? Directly from your prompt? From its training? By searching the internet in response to the prompt? Or has it simply made up some stuff? (often referred to as hallucinating)
 
-After the first prompt, we may want to provide a follow up prompt, with more specific details and/or a clarification or extension of our original question.  Consider:
+After the first prompt, you may want to provide a follow up prompt, with more specific details and/or a clarification or extension of our original question.  Consider:
 * does this improve the AI tool's response?
 * how much does this feel like a natural conversation?
 
-These are some suggestions to get you started but please use your own ideas also.
+Agree a chairperson who will summarise the group's conclusions to the class.  
 
 ## Planners
+Make a plan for a task or set of activities.  This could be a tiny plan, that take a few minutes to execute, or a grand plan that is implemented over decades.
 
 ### Tasks
-Here are some suggested starter prompts for the planner team. These incorporate ideas for plans for activities that take a few minutes to a few decades
-* Create a 5 step plan for the NHS to handle the next pandemic.
-* How do I make the perfect omelette?  Provide a step by step instructions.
-* I am planning a trip to Paris in the spring.  Could you suggest 10 top tourist sights?
-* I am a NHS Nurse.  How do I become Chief Executive of NHS England in 12 easy steps?
+
+Create a 5 step plan for the NHS to handle the next pandemic.
+
+How do I make the perfect omelette?  Provide a step by step instructions.
+
+Planning a trip to Paris in the spring.
+
+I am a NHS Nurse.  How do I become Chief Executive of NHS England in 12 easy steps?
 
 
 ## Reviewers
