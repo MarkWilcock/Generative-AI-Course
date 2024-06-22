@@ -23,15 +23,15 @@ Make a plan for a task or set of activities.  This could be a tiny plan, that ta
 ### Tasks
 Create a 5 step plan for the NHS to handle the next pandemic.
 
-How do I make the perfect omelette?  Provide a step by step instructions.
+How do I make the perfect omelette?  Provide step by step instructions.
 
-Planning a trip to Paris in the spring.
+Plan a trip to Paris in the spring.
 
 I am a NHS Nurse.  How do I become Chief Executive of NHS England in 12 easy steps?
 
 
 ## Reviewers
-Reviewers evaluate, summariuse and improve some text.  They may also change the style and tone.
+Reviewers evaluate, summarise and improve some work.  They may also change the style and tone of a document or message.
 
 ### Tasks
 Imagine that you need to recruit a data analyst to work in your NHS hospital in central London.  Draft a job description that to provide to recruitment agencies and the NHS Jobs website. The candidate must have 
@@ -61,9 +61,8 @@ Explainers what to understand how things work and to understand the root cause o
 Explain to me like I am a five year old what the NHS does.
 
 Explain a section 42 notice under the leasehold reform Housing & Development act of 1993.
-This Excel formula produces incorrect results in some cells but is correct in others.  Can you explain why?  
 
-=XLOOKUP(G18,$D$18:$D$21,$C18:$C$21)  
+This Excel formula produces incorrect results in some cells but is correct in others. Can you explain why?  =XLOOKUP(G18,$D$18:$D$21,$C18:$C$21)  
 
 Explain what went wrong in the recent cybersecurity breach of the British Library?
 
@@ -101,12 +100,13 @@ Suggest ideas to make working from home more collaborative, productive, and enjo
 
 Suggest five names for a pub quiz team.  We are six mates who met at university a long time ago.
 
-Use the RICE framework to improve and hone our prompts and (hopefully) the AI tool will respond with more useful suggestions.  Here are some example prompts, to plan a family summer holiday, but please use your own ideas. 
 
 #### Task: Use the RICE framework to hone your ideas
+Use the RICE framework to improve and hone our prompts and (hopefully) the AI tool will respond with more useful suggestions.  Here are some example prompts, to plan a family summer holiday, but please use your own ideas. 
+
 Start with a vague but typical prompt. e.g. Suggest 5 ideas for good holiday.
 
-Provide a more detailed, specific prompt using the RICE framework. Build this up step-by-step.  here are some more specific prompts building on the holiday planning theme.
+Provide a more detailed, specific prompt using the RICE framework. Build this up step-by-step.  Here are some more specific prompts building on the holiday planning theme.
 
 Role: Act as an expert in holiday planning.  Your clients live in the UK.  Keep your responses brief. Provide a link for any suggestions that you make.
 

@@ -1,14 +1,27 @@
 # Exercise - Advanced Tasks
 
-In this exercise, we will split the class into four teams.  Each team focusses an a different type of advanced task.  Each team will look how how AI can do more advanced tasks than in the previous "starter" exercise. 
+In this exercise, we will split the class into four teams.  Each team focusses an a different type of advanced task.  Each team will look how how AI can do more advanced tasks than in the previous starter exercise. 
 
 ## Thinkers
-As AI tools have become more powerful, they have shown emeregent abilites: chain of thugh reasoning, crack jokes, transalation....
+As AI tools have become more powerful, they have shown emergent abilites: 
+* the ability to crack jokes, 
+* provide step-by-step instructions, 
+* perform chain of thought reasoning,
+* act in a role,
+* write poetry,
+* solve algebraic equations and
+* provide strategic advice to directors of large organisations!
 
 ### Tasks
 Here is a picture (of a ball connected by string to the ceiling).  What happens if we cut the string?
 
 If 3x + 4 = 19, what is x?  Explain your reasoning.
+
+Write a poem, in rhyming couplets, about the stresses and strains - and highlights - of working in the NHS.
+
+Act as a morose, unhappy, pessimistic,and sarcastic football expert _(other sports are available and can be substituted here)_ and answer the following questions I will give you...
+
+Explain ... to me as if I am a | 10 year old child | 10 year old child | professor of...
 
 # Imagers
 AI tools can understand and interpret images
@@ -36,11 +49,14 @@ Download a document from a public web page and then prompt the AI to summarise a
 * Please summarise in fewer than 300 words
 * How could this article be improved to make more clear and compelling?
 * The article discusses ... (e.g. rise of vaping in the UK and suggests it is a good thing).  Provide three arguments to support this conclusion and three argument against it.
-* Explain the main points of the article as if speaking to a 10 year old child.
+
 
 
 ## Customisers
 
+Customisers adapt the AI tool so it provides more relevant responses based on the organisations needs.
+
+### Tasks
 Customise the AI in some way :
  * prompt engineering
  * system prompt
