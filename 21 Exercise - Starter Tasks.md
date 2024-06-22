@@ -21,7 +21,6 @@ Agree a chairperson who will summarise the group's conclusions to the class.
 Make a plan for a task or set of activities.  This could be a tiny plan, that take a few minutes to execute, or a grand plan that is implemented over decades.
 
 ### Tasks
-
 Create a 5 step plan for the NHS to handle the next pandemic.
 
 How do I make the perfect omelette?  Provide a step by step instructions.
@@ -34,12 +33,20 @@ I am a NHS Nurse.  How do I become Chief Executive of NHS England in 12 easy ste
 ## Reviewers
 Reviewers evaluate, summariuse and improve some text.  They may also change the style and tone.
 
-1. We need to recruit a data analyst to work our NHS hospital in central London.  Draft a job description that we can provide to recruitment agencies and the NHS Jobs website. The candidate must have experience of MSOffice and in particular Excel.  We seek a person who has at least 5 years of previous experience as a data analyst.  This can be in either the public or private sector environment.  Power BI and SQL skills would be a bonus. In particular, 10 years experience and a high level expertise of using the Gobbledegook MIS system, which is the main business intelligence system used in our trust, is a mandatory requirement.   
+### Tasks
+Imagine that you need to recruit a data analyst to work in your NHS hospital in central London.  Draft a job description that to provide to recruitment agencies and the NHS Jobs website. The candidate must have 
+* experience of MS Office and in particular Excel
+* at least 5 years of previous experience as a data analyst.  This can be in either the public or private sector environment.  
+* Power BI and SQL skills would be a bonus. 
+* In particular, 10 years experience and a high level expertise of using the Gobbledegook MIS system, which is the main business intelligence system used in our trust, is a mandatory requirement.   
+
 _Follow-on prompt:_ We are desperate to fill this post so revise the job description to make it as enticing as possible.  
+
 _Follow on prompt:_ Can you make this more formal while keeping the enticing tone.
 
-1. Please summarise the information about the recent BBC Strictly series in this webpage into two paragraphs https://en.wikipedia.org/wiki/Strictly_Come_Dancing_series_21
-1. This page https://digital-transformation.hee.nhs.uk/building-a-digital-workforce/phillips-ives-review and the pages that it links to, explain The Phillips Ives Nursing and Midwifery Review. Summarise the content of these pages in 5 short paragraphs.
+Please summarise the information about the recent BBC Strictly series in this webpage into two paragraphs https://en.wikipedia.org/wiki/Strictly_Come_Dancing_series_21
+
+This page https://digital-transformation.hee.nhs.uk/building-a-digital-workforce/phillips-ives-review and the pages that it links to, explain The Phillips Ives Nursing and Midwifery Review. Summarise the content of these pages in 5 short paragraphs.
 
 Download a document from a public web page and then prompt the AI to summarise and review the document.  Example prompts are:
 * Please summarise in fewer than 300 words
@@ -47,13 +54,18 @@ Download a document from a public web page and then prompt the AI to summarise a
 * The article discusses ... (e.g. rise of vaping in the UK and suggests it is a good thing).  Provide three arguments to support this conclusion and three argument against it.
 * Explain the main points of the article as if speaking to a 10 year old child.
 
-
 ## Explainers
-* Explain to me like I am a five year old what the NHS does.
-* Explain a section 42 notice under the leasehold reform Housing & Development act of 1993.
-* This Excel formula produces incorrect results in some cells but is correct in others.  Can you explain why?  
+Explainers what to understand how things work and to understand the root cause of a problem and how it can be fixed.
+
+### Tasks
+Explain to me like I am a five year old what the NHS does.
+
+Explain a section 42 notice under the leasehold reform Housing & Development act of 1993.
+This Excel formula produces incorrect results in some cells but is correct in others.  Can you explain why?  
+
 =XLOOKUP(G18,$D$18:$D$21,$C18:$C$21)  
-* Explain what went wrong in the recent cybersecurity breach of the British Library?
+
+Explain what went wrong in the recent cybersecurity breach of the British Library?
 
 Ask the AI to explain concepts from science and technology, for example:
 * Explain quantum computing in simple terms, focusing on how it differs from classical computing.
@@ -74,19 +86,26 @@ And the arts and literature, for example:
 * What is Impressionism, and who are some of the key artists associated with this movement?
 
 ## Brainstormers
-* Generate 10 geography questions suitable for a pub quiz.
-* Provide some suggestions for a surpise birthday party.  
-* I am writing a spy novel. Suggest some titles that will make it fly off the bookshelves. 
-* Suggest five unconventional modes of urban transportation that could be feasible by 2050.
-* Suggest ideas to make working from home more collaborative, productive, and enjoyable.
-* Suggest five names for a pub quiz team.  We are six mates who met at university a long time ago.
+Brainstormer generate ideas and possibilities and seem to think outside-the-box;-)
+
+### Tasks
+Generate 10 geography questions suitable for a pub quiz.
+
+Provide some suggestions for a surpise birthday party.  
+
+I am writing a spy novel. Suggest some titles that will make it fly off the bookshelves. 
+
+Suggest five unconventional modes of urban transportation that could be feasible by 2050.
+
+Suggest ideas to make working from home more collaborative, productive, and enjoyable.
+
+Suggest five names for a pub quiz team.  We are six mates who met at university a long time ago.
 
 Use the RICE framework to improve and hone our prompts and (hopefully) the AI tool will respond with more useful suggestions.  Here are some example prompts, to plan a family summer holiday, but please use your own ideas. 
 
-### Task 1 
+#### Task: Use the RICE framework to hone your ideas
 Start with a vague but typical prompt. e.g. Suggest 5 ideas for good holiday.
 
-### Task  2
 Provide a more detailed, specific prompt using the RICE framework. Build this up step-by-step.  here are some more specific prompts building on the holiday planning theme.
 
 Role: Act as an expert in holiday planning.  Your clients live in the UK.  Keep your responses brief. Provide a link for any suggestions that you make.
@@ -96,7 +115,4 @@ Instructions: Suggest 5 ideas for good summer holiday for a family from London.
 Constraints / Context:  Here is some more information about us. We live in London but would like to holiday abroad. We like exploring cities but also want to get out of the city to walk in beautiful countryside. We are interested in football stadiums, so we would consider visiting cities that are home to a prominent football team. We don't want to fly to go on holiday.  We are happy to take the train or do a cruise.   Please revise your suggestions.
 
 Here is an example of the type of response I need. Milan is a lovely city for families on holiday.  It has many attractions e.g. the Duomo, Michaelangelo's Last Supper.  There are beautiful tourist locations near to the city. for example, Bergamo is a historic hilltop town only a short train journey from Milan.  The famous San Siro football stadium, used by both AC Milan and Inter Milan, is situated on the outskirts of the city.  Milan can be reached by train from London with an overnight stop in Paris.   Please revise your suggestions to respond in this style.
-
-
-
 
