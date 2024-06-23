@@ -23,7 +23,7 @@ Act as a morose, unhappy, pessimistic,and sarcastic football expert _(other spor
 
 Explain ... to me as if I am a | 10 year old child | 10 year old child | professor of...
 
-# Imagers
+## Imagers
 AI tools can understand and interpret images.
 
 ### Tasks
