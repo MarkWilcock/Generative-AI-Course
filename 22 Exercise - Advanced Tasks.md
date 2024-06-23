@@ -31,6 +31,38 @@ AI tools can understand and interpret images.
 
 * Download [this image](./Resources/NHS%20ART.jpg.webp) to your computer. The image comes from [this page](https://ifs.org.uk/articles/state-nhs) on the Institute for Fiscal Studies (IFS) website.  This is a more complex image: more people, police and healthcase workers, engaged in an protest / demonstration activity and a city background. Upload to the AI tool and then prompt the AI to describe the attached image.  See if the AI reads the messages on the banners.  If not, prompt it to do so.
 
+
+## Customisers
+
+Customisers adapt the AI tool so it provides more relevant responses based on the organisation's needs.
+
+### Tasks
+Customise the AI in some way. Here are some suggestions. Some or all if these options may or may not be available to you depending on the particular AI tool and your subscription.
+
+Use prompt engineering, for example following the RICE framework.
+
+Configure the AI tool.  For example, you can customise ChatGPT to tell it something about yourself (location, interests, goals,..) and how it should respond (formal or casual, brief or verbose, neutral or opinionated,...)
+
+Look at examples of customised AIs.  For example, ChatGPT offers several including:
+* an educator (Khanmigo)
+* a Python helper
+Then create your own custom custom AI.  
+
+Create an assistant with a low code approach.  Here is an example using OpenAI.
+1. Go to the [Open AI Playground](https://platform.openai.com/playground/) 
+1. Create an assistant
+1. Configure  the assistant 
+    * name it
+    * provide instructions into the text box
+    * choose a model
+    * (important), add documents e.g. PDF filess containing the information or data that you want the assistant to search when providing responses,
+    * Test out your assistant
+    * Publish your assistant.
+
+Use Azure Copilot Stdio (low code approach)
+
+Use Azure AI studio (high code, Pythonic approach)
+
 ## Retrievers
 Organisations would like the AI tool to provide responses based on their own internal documents or data rather than on general information culled from external sources.
 
@@ -51,15 +83,3 @@ Download a document from a public web page and then prompt the AI to summarise a
 * The article discusses ... (e.g. rise of vaping in the UK and suggests it is a good thing).  Provide three arguments to support this conclusion and three argument against it.
 
 
-
-## Customisers
-
-Customisers adapt the AI tool so it provides more relevant responses based on the organisation's needs.
-
-### Tasks
-Customise the AI in some way :
- * prompt engineering
- * system prompt
- * custom GPT
- * use Azure Copilot Stdio (low code approach)
- * use Azure AI studio (high code, Pythonic approach)
